@@ -1,4 +1,15 @@
 /* ./src/index.css */
+/* Normal Font */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Welcome Page write */
+/* https://fonts.google.com/specimen/Sedgwick+Ave+Display?query=Sedgwick+Ave+Display&preview.text=Robert%20Downey&preview.text_type=custom */
+
+@layer base {
+  html {
+    font-family: "Quicksand", sans-serif;
+  }
+}
