@@ -11,7 +11,7 @@ module.exports = {
         brand_blue: "#A7E1F5",
         brand_green_soft: "#70D096",
         brand_red: "#FB4F6E",
-        brand_green: "#FB4F6E",
+        brand_green: "#008D43",
       },
     },
   },
