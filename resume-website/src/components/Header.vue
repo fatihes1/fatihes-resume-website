@@ -15,7 +15,7 @@
           <h1>
             Hi ! I am
             <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-brand_orange to-brand_orange/60"
+              class="text-transparent bg-clip-text bg-gradient-to-r from-brand_green to-purple-600"
               >Fatih</span
             ><span class="text-brand_orange text-6xl block mt-4"
               >Software developer</span
@@ -43,7 +43,9 @@
           </span>
         </div>
       </div>
-      <div class="flex justify-items-start w-1/2">j</div>
+      <div class="flex justify-items-start w-1/2">
+        <img src="../assets/welcome.png" alt="welcome_header" />
+      </div>
     </div>
   </div>
 </template>
