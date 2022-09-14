@@ -6,7 +6,7 @@
       <h1 class="text-2xl">LOGO HERE</h1>
     </div>
     <div class="mr-20">
-      <ul class="flex flex-row gap-x-16 text-lg text-gray-700">
+      <ul class="flex flex-row gap-x-16 text-2xl text-gray-700">
         <li class="text-brand_orange">Home</li>
         <li>About Me</li>
         <li>Skills</li>
