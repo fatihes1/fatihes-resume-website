@@ -13,7 +13,7 @@
         </div>
         <div class="font-bold text-8xl ml-20 mt-14">
           <h1>
-            Hi ! I am
+            Hi! I am
             <span
               class="text-transparent bg-clip-text bg-gradient-to-r from-brand_green to-purple-600"
               >Fatih</span
@@ -28,7 +28,7 @@
 
         <a
           href="/"
-          class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white"
+          class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce duration-300b"
         >
           DISCOVER
         </a>

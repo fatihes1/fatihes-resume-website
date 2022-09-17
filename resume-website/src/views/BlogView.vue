@@ -1,16 +1,14 @@
 <template>
   <div class="h-screen overflow-hidden">
-    <NavBar tab="Home" />
-    <Header />
+    <NavBar tab="Blog" />
+    <Blogs />
   </div>
 </template>
 
 <script>
 import NavBar from "../components/NavBar.vue";
-import Header from "../components/Header.vue";
-
+import Blogs from "../components/Blogs.vue";
 export default {
-  //   components: ["NavBar"],
-  components: { NavBar, Header },
+  components: { NavBar, Blogs },
 };
 </script>
