@@ -7,8 +7,25 @@
       >
         My Blogs about Tech
       </h1>
-      <h2>asdhdsaujko</h2>
+      <div class="flex flex-col justify-between mt-3">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
     <div></div>
   </div>
 </template>
+
+<script>
+import Card from "./Card.vue";
+
+export default {
+  components: { Card },
+  data() {
+    return {
+      tags: ["deneme", "deneme"],
+    };
+  },
+};
+</script>

@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  props: { tab: { type: String, default: "Home" } },
+  props: { tab: { type: String, default: "Home" }, deneme: { type: String } },
   data() {
     return { tabInfo: this.tab };
   },

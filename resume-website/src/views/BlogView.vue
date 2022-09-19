@@ -7,7 +7,7 @@
 
 <script>
 import NavBar from "../components/NavBar.vue";
-import Blogs from "../components/Blogs.vue";
+import Blogs from "../components/BlogSection/Blogs.vue";
 export default {
   components: { NavBar, Blogs },
 };
