@@ -7,9 +7,11 @@
       >
         My Blogs about Tech
       </h1>
-      <div class="flex flex-col justify-between mt-3">
-        <Card />
-        <Card />
+      <h2 class="text-center text-base text-gray-500 mt-2">
+        Articles created in order to increase the number of resources in Turkish
+        on various technological subjects.
+      </h2>
+      <div class="flex flex-row mx-auto gap-x-6">
         <Card />
       </div>
     </div>
@@ -19,13 +21,11 @@
 
 <script>
 import Card from "./Card.vue";
-
+// import Blogs from "@/assets/Blogs.json";
 export default {
   components: { Card },
   data() {
-    return {
-      tags: ["deneme", "deneme"],
-    };
+    return {};
   },
 };
 </script>
