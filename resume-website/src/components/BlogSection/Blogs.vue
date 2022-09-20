@@ -12,7 +12,7 @@
         on various technological subjects.
       </h2>
       <div class="flex flex-row mx-auto gap-x-6">
-        <Card />
+        <Card v-for="blog in Blogs" :blog="blog" />
       </div>
     </div>
     <div></div>
@@ -21,11 +21,14 @@
 
 <script>
 import Card from "./Card.vue";
-// import Blogs from "@/assets/Blogs.json";
+import Blogs from "@/assets/Blogs.json";
+
 export default {
   components: { Card },
   data() {
-    return {};
+    return {
+      Blogs,
+    };
   },
 };
 </script>
