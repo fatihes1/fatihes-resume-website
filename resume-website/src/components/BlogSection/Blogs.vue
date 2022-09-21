@@ -11,7 +11,7 @@
         Articles created in order to increase the number of resources in Turkish
         on various technological subjects.
       </h2>
-      <div class="flex flex-row mx-auto gap-x-6">
+      <div class="mt-4 flex flex-col mx-auto gap-y-3">
         <Card v-for="blog in Blogs" :blog="blog" />
       </div>
     </div>

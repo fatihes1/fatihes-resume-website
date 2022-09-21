@@ -1,17 +1,23 @@
 <template>
-  <div class="card w-96 bg-brand_green/20 shadow-xl">
-    <figure class="px-6 pt-6">
-      <img :src="blog.image" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body">
-      <h2 class="card-title">
-        {{ blog.title }}
-        <div class="badge badge-secondary">NEW</div>
-      </h2>
-      <p>{{ blog.desc }}</p>
-      <div class="card-actions justify-end">
-        <div class="badge badge-outline">{{ blog.tags[0] }}</div>
-        <div class="badge badge-outline">{{ blog.tags[1] }}</div>
+  <div class="w-full h-32 rounded-lg bg-neutral mockup-code">
+    <div class="flex flex-row justify-between">
+      <div class="w-1/6 h-full items-center justify-center flex">
+        <img
+          :src="blog.image"
+          alt="blog image"
+          class="object-contain w-full h-full rounded-tr-lg"
+        />
+      </div>
+      <div class="w-2/6">
+        <pre>HTMNL CSS</pre>
+      </div>
+      <div class="flex w-4/6 flex-row justify-end">
+        <div class="w-2/6">
+          <pre>HTMNL CSS</pre>
+        </div>
+        <div class="w-1/6">
+          <pre>Read More..</pre>
+        </div>
       </div>
     </div>
   </div>

@@ -1,30 +1,42 @@
 [
   {
     "id": 1,
-    "title": "The Lord of the Rings",
-    "desc": "Description of the book",
-    "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch"
+    "title": "Introduction to Cloud Computing with AWS",
+    "desc": "220+ page comprehensive Turkish document on cloud computing and AWS.",
+    "tags": ["Cloud", "AWS"],
+    "image": "https://assets.intersystems.com/26/bd/6a6aa762425f87ad7d5c2fe65f8c/awslogo-image.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
   },
   {
     "id": 2,
-    "title": "The Lord of the Rings",
-    "desc": "Description of the book",
-    "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch"
+    "title": "Teachable Machine Turkish Directory",
+    "desc": "Turkish guide explaining the use of the Google Teachable Machine tool.",
+    "tags": ["AI", "TensorFlow"],
+    "image": "https://i.ytimg.com/vi/yjprpOoH5c8/maxresdefault.jpg",
+    "url": "https://www.linkedin.com/posts/fatihes_google-teachable-machine-t%C3%BCrk%C3%A7e-k%C4%B1lavuz-activity-6759132514192777216--Ck1?utm_source=share&utm_medium=member_desktop"
   },
   {
     "id": 3,
     "title": "The Lord of the Rings",
     "desc": "Description of the book",
     "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch"
+    "image": "https://placeimg.com/400/225/arch",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
   },
   {
     "id": 4,
     "title": "The Lord of the Rings",
     "desc": "Description of the book",
     "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch"
+    "image": "https://placeimg.com/400/225/arch",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
+  },
+  {
+    "id": 5,
+    "title": "The Lord of the Rings",
+    "desc": "Description of the book",
+    "tags": ["fantasy", "fiction", "adventure"],
+    "image": "https://placeimg.com/400/225/arch",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
   }
 ]
