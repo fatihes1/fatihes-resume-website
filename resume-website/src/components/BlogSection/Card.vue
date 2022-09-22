@@ -1,22 +1,31 @@
 <template>
-  <div class="w-full h-32 rounded-lg bg-neutral mockup-code">
-    <div class="flex flex-row justify-between">
-      <div class="w-1/6 h-full items-center justify-center flex">
-        <img
-          :src="blog.image"
-          alt="blog image"
-          class="object-contain w-full h-full rounded-tr-lg"
-        />
+  <div class="w-full h-32 rounded-lg mockup-code overflow-x-hidden">
+    <div class="flex flex-row justify-between h-20 w-full">
+      <div class="w-1/6">
+        <figure>
+          <img :src="blog.image" alt="blog image" class="w-full h-full" />
+        </figure>
       </div>
-      <div class="w-2/6">
-        <pre>HTMNL CSS</pre>
+      <div class="w-3/6">
+        <pre
+          data-prefix="$"
+          class="text-success"
+        ><code >npm install {{blog.title}}</code></pre>
+        <pre
+          data-prefix=">"
+          class="text-gray-400"
+        ><code >{{ blog.desc }}</code></pre>
       </div>
-      <div class="flex w-4/6 flex-row justify-end">
-        <div class="w-2/6">
-          <pre>HTMNL CSS</pre>
+      <div class="flex w-2/6 flex-row justify-center">
+        <div class="w-2/3">
+          <pre
+            class=""
+          ><code>Keywords: {{blog.tags[0]}}, {{blog.tags[1]}}</code></pre>
         </div>
-        <div class="w-1/6">
-          <pre>Read More..</pre>
+        <div class="w-1/3">
+          <a :href="blog.url" target="_blank">
+            <pre class="text-warning underline-offset-1">Read More.. </pre>
+          </a>
         </div>
       </div>
     </div>
