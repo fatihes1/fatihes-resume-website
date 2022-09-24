@@ -1,7 +1,7 @@
 <template>
   <!-- <HomeView /> -->
-  <!-- <BlogView /> -->
-  <AboutView />
+  <BlogView />
+  <!-- <AboutView /> -->
 </template>
 
 <script>

@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+const _ = require("lodash");
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -13,7 +15,33 @@ module.exports = {
         brand_red: "#FB4F6E",
         brand_green: "#008D43",
       },
+      animation: {
+        "spin-slow": "spin 14s linear infinite",
+      },
+      height: (theme) => ({
+        "screen/2": "50vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      }),
     },
   },
-  plugins: [require("daisyui")],
+  variants: { display: ["responsive", "hover", "focus"] },
+  plugins: [
+    plugin(function ({ addUtilities, theme, e }) {
+      const calcUtilities = _.map(theme("spacing"), (value, key) => {
+        return {
+          [`.${e(`calc-h-full-${key}`)}`]: {
+            height: `calc(100% - ${value})`,
+          },
+          [`.${e(`calc-w-full-${key}`)}`]: {
+            width: `calc(100% - ${value})`,
+          },
+        };
+      });
+      addUtilities(calcUtilities, {
+        variants: ["responsive", "hover"],
+      });
+    }),
+  ],
 };
