@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto calc-h-full-20">
+  <div class="container mx-auto">
     <div class="h-20 flex flex-col justify-center items-center">
       <h1
         class="text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-500 to-purple-600"
