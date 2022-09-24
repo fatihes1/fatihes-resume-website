@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen overflow-hidden">
-    <NavBar tab="Blog" />
+    <!-- <NavBar tab="Blog" /> -->
     <Blogs />
   </div>
 </template>

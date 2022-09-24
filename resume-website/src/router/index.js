@@ -8,6 +8,34 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
+      props: { tab: "Home" },
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: () => import("../views/AboutView.vue"),
+      props: true,
+    },
+    {
+      path: "/blogs",
+      name: "blogs",
+      component: () => import("../views/BlogView.vue"),
+      props: { tab: "Blogs" },
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () => import("../views/ContactView.vue"),
+    },
+    {
+      path: "/projects",
+      name: "projects",
+      component: () => import("../views/ProjectsView.vue"),
+    },
+    {
+      path: "/skills",
+      name: "skills",
+      component: () => import("../views/SkillView.vue"),
     },
     // {
     //   path: '/about',

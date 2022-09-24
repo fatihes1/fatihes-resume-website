@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen overflow-hidden">
-    <NavBar tab="Home" />
-    <Header />
+    <!-- <NavBar tab="Home" /> -->
+    <Header class="calc-h-full-20 mt-10" />
   </div>
 </template>
 
