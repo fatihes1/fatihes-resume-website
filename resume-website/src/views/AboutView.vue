@@ -1,15 +1,14 @@
 <template>
   <div>
-    <AboutHeader class="calc-h-full-20 mt-20" />
+    <AboutHeader class="mt-8" />
   </div>
 </template>
 
 <script>
-import NavBar from "../components/NavBar.vue";
 import AboutHeader from "../components/AboutSection/AboutHeader.vue";
 
 export default {
   //   components: ["NavBar"],
-  components: { NavBar, AboutHeader },
+  components: { AboutHeader },
 };
 </script>

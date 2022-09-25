@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto calc-h-full-40">
     <div class="flex">
       <div class="flex flex-col gap-y-3 w-1/2">
         <div>
@@ -44,7 +44,11 @@
         </div>
       </div>
       <div class="flex justify-items-start w-1/2">
-        <img src="../assets/welcome.png" alt="welcome_header" />
+        <img
+          src="../assets/welcome.png"
+          alt="welcome_header"
+          class="animate__animated animate__bounceInDown"
+        />
       </div>
     </div>
   </div>

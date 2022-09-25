@@ -17,19 +17,9 @@
             ></span>
           </span>
         </div>
-        <div class="w-4/12 flex flex-row justify-center items-center mr-24">
-          <div>
-            <span
-              class="w-96 h-96 border-8 border-dashed border-blue-400 rounded-full grid place-items-center relative animate-spin-slow"
-            >
-              <img
-                src="@/assets/about.jpeg"
-                alt="fatih"
-                class="rounded-full w-80 h-80 animate-none"
-            /></span>
-          </div>
-        </div>
-        <div class="w-6/12 flex flex-col justify-around">
+        <div
+          class="w-6/12 flex flex-col gap-y-10 items-start mr-24 mt-9 animate__animated animate__bounceInDown"
+        >
           <h1 class="text-5xl font-bold text-gray-700">Learn more about me!</h1>
           <h1 class="text-2xl font-medium text-gray-500">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
@@ -53,6 +43,19 @@
             <pre class="inline font-bold">'Who Am I'</pre>
             Blog Post
           </a>
+        </div>
+        <div
+          class="w-4/12 flex flex-col justify-around animate__animated animate__bounceInUp"
+        >
+          <h1 class="text-5xl font-bold text-gray-700">Communities</h1>
+          <h1 class="text-2xl font-medium text-gray-500">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+            praesentium ipsum pariatur, obcaecati minima cupiditate debitis
+          </h1>
+          <h1 class="text-2xl font-medium text-gray-500">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+            praesentium ipsum pariatur, obcaecati minima cupiditate debitis
+          </h1>
 
           <div class="flex flex-row justify-end mr-40">
             <span

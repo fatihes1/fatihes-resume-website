@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Blogs class="calc-h-full-20 mt-20" />
+    <Blogs class="calc-h-full-20 mt-5" />
   </div>
 </template>
 

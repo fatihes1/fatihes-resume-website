@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <NavBar class="h-20" />
+  <div class="h-screen overflow-hidden">
+    <NavBar />
   </div>
 </template>
 
