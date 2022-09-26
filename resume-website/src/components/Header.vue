@@ -49,7 +49,7 @@
         </div>
         <div class="flex justify-items-start w-1/2">
           <img
-            src="../assets/welcome.png"
+            src="../assets/images/welcome.png"
             alt="welcome_header"
             class="animate__animated animate__bounceInDown"
           />

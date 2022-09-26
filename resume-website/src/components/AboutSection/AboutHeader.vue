@@ -48,7 +48,11 @@
           class="w-5/12 flex flex-col justify-around items-start animate__animated animate__bounceInUp"
         >
           <h1 class="text-5xl font-bold text-gray-700">Communities</h1>
-          <CommunityCard v-for="community in CommunityInfo" key="id" />
+          <CommunityCard
+            v-for="community in CommunityInfo"
+            key="id"
+            :community="community"
+          />
           <div class="flex flex-row justify-end mr-40">
             <span
               class="w-14 h-14 bg-brand_blue bg-opacity-100 rounded-full grid place-items-center relative mb-4"
