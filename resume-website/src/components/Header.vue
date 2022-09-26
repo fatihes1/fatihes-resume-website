@@ -4,7 +4,7 @@
       <div class="flex flex-col gap-y-3 w-1/2">
         <div>
           <span
-            class="w-16 h-16 border-4 border-brand_green rounded-full grid place-items-center relative mb-4"
+            class="w-16 h-16 border-4 border-brand_green rounded-full grid place-items-center relative mb-4 animate__rubberBand animate__animated animate__infinite animate__slow"
           >
             <span
               class="absolute -top-6 -left-10 w-16 h-16 bg-brand_green scale-95 rounded-full -z-1 bg-opacity-25"

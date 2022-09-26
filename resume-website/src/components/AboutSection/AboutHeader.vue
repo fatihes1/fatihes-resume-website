@@ -18,7 +18,7 @@
           </span>
         </div>
         <div
-          class="w-6/12 flex flex-col gap-y-10 items-start mr-24 mt-9 animate__animated animate__bounceInDown"
+          class="w-5/12 flex flex-col gap-y-10 items-start mr-24 mt-9 animate__animated animate__bounceInDown"
         >
           <h1 class="text-5xl font-bold text-gray-700">Learn more about me!</h1>
           <h1 class="text-2xl font-medium text-gray-500">
@@ -45,18 +45,10 @@
           </a>
         </div>
         <div
-          class="w-4/12 flex flex-col justify-around animate__animated animate__bounceInUp"
+          class="w-5/12 flex flex-col justify-around items-start animate__animated animate__bounceInUp"
         >
           <h1 class="text-5xl font-bold text-gray-700">Communities</h1>
-          <h1 class="text-2xl font-medium text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
-            praesentium ipsum pariatur, obcaecati minima cupiditate debitis
-          </h1>
-          <h1 class="text-2xl font-medium text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
-            praesentium ipsum pariatur, obcaecati minima cupiditate debitis
-          </h1>
-
+          <CommunityCard v-for="community in CommunityInfo" key="id" />
           <div class="flex flex-row justify-end mr-40">
             <span
               class="w-14 h-14 bg-brand_blue bg-opacity-100 rounded-full grid place-items-center relative mb-4"
@@ -79,8 +71,15 @@
 </template>
 
 <script>
-import CommunityInfoCardVue from "./CommunityInfoCard.vue";
+import CommunityCard from "./CommunityCard.vue";
+import CommunityInfo from "@/assets/CommunityInfo.json";
+
 export default {
-  components: { CommunityInfoCardVue },
+  components: { CommunityCard },
+  data() {
+    return {
+      CommunityInfo,
+    };
+  },
 };
 </script>
