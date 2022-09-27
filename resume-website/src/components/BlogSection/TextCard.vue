@@ -6,14 +6,14 @@
       {{ blog.title }}
     </h1>
     <h1 class="text-lg">{{ blog.desc }}</h1>
-    <div class="flex flex-row gap-x-2 justify-center">
-      <span class="border border-gray-600 px-3 py-1 rounded-full">{{
+    <div class="flex flex-row gap-x-2 justify-center text-sm font-semibold">
+      <span class="border-2 border-gray-600 px-3 py-1 rounded-full">{{
         blog.tags[0]
       }}</span>
-      <span class="border border-gray-600 px-2 py-1 rounded-full">{{
+      <span class="border-2 border-gray-600 px-2 py-1 rounded-full">{{
         blog.tags[1]
       }}</span>
-      <span class="border border-gray-600 px-2 py-1 rounded-full">{{
+      <span class="border-2 border-gray-600 px-2 py-1 rounded-full">{{
         blog.tags[2]
       }}</span>
     </div>

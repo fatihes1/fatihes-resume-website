@@ -12,7 +12,9 @@
       </h2>
     </div>
     <div class="flex flex-row gap-x-8 w-full calc-h-full-40 mt-4">
-      <div class="flex flex-col gap-y-8 h-full w-1/5">
+      <div
+        class="flex flex-col gap-y-8 h-full w-1/5 animate__animated animate__bounceInDown"
+      >
         <div class="h-3/5 w-full">
           <TextCard :blog="Blogs[0]" />
         </div>
@@ -20,7 +22,9 @@
           <ImageCard :image="Blogs[0].image" :blogUrl="Blogs[0].url" />
         </div>
       </div>
-      <div class="flex flex-col gap-y-8 justify-between w-1/5">
+      <div
+        class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInUp"
+      >
         <div class="h-2/5">
           <ImageCard :image="Blogs[1].image" :blogUrl="Blogs[1].url" />
         </div>
@@ -28,7 +32,9 @@
           <TextCard :blog="Blogs[1]" />
         </div>
       </div>
-      <div class="flex flex-col gap-y-8 justify-between w-1/5">
+      <div
+        class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInDown"
+      >
         <div class="h-3/5">
           <TextCard :blog="Blogs[2]" />
         </div>
@@ -36,7 +42,9 @@
           <ImageCard :image="Blogs[2].image" :blogUrl="Blogs[2].url" />
         </div>
       </div>
-      <div class="flex flex-col gap-y-8 justify-between w-1/5">
+      <div
+        class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInUp"
+      >
         <div class="h-2/5">
           <ImageCard :image="Blogs[3].image" :blogUrl="Blogs[3].url" />
         </div>
@@ -44,7 +52,9 @@
           <TextCard :blog="Blogs[3]" />
         </div>
       </div>
-      <div class="flex flex-col gap-y-8 justify-between w-1/5">
+      <div
+        class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInDown"
+      >
         <div class="h-3/5">
           <TextCard :blog="Blogs[4]" />
         </div>
