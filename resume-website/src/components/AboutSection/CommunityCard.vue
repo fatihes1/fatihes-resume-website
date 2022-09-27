@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-11/12 h-28 border-2 rounded-lg border-brand_orange bg-orange-50/60 flex flex-row gap-x-6 items-center justify-between p-4"
+    class="w-11/12 h-28 rounded-2xl shadow-xl hover:animate-bounce bg-brand_orange/30 flex flex-row gap-x-6 items-center justify-between p-4"
   >
     <div class="w-3/12 items-center justify-center h-full flex">
       <img
@@ -22,9 +22,9 @@
       </a>
     </div>
     <div class="w-3/12 items-end h-full flex flex-col gap-y-0">
-      <h1>Mar 2022</h1>
+      <h1>{{ community.start_date }}</h1>
       <h1 class="items-center">-</h1>
-      <h1>Currently</h1>
+      <h1>{{ community.end_date }}</h1>
     </div>
   </div>
 </template>
