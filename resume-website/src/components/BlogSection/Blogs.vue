@@ -14,10 +14,10 @@
     <div class="flex flex-row gap-x-8 w-full calc-h-full-40 mt-4">
       <div class="flex flex-col gap-y-8 h-full w-1/5">
         <div class="h-3/5 w-full">
-          <div class="w-full h-full bg-red-300 rounded-xl"></div>
+          <TextCard :blog="Blogs[0]" />
         </div>
         <div class="h-2/5">
-          <img :src="Blogs[0].image" class="w-full h-full rounded-xl" />
+          <ImageCard :image="Blogs[0].image" :blogUrl="Blogs[0].url" />
         </div>
       </div>
       <div class="flex flex-col gap-y-8 justify-between w-1/5">
@@ -58,6 +58,8 @@
 
 <script>
 import Blogs from "@/assets/Blogs.json";
+import TextCard from "./TextCard.vue";
+import ImageCard from "./ImageCard.vue";
 
 export default {
   data() {
@@ -65,5 +67,6 @@ export default {
       Blogs,
     };
   },
+  components: { TextCard, ImageCard },
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-11/12 h-28 rounded-2xl shadow-xl hover:animate-bounce bg-brand_orange/30 flex flex-row gap-x-6 items-center justify-between p-4"
+    class="w-11/12 h-28 rounded-2xl shadow-xl hover:animate-pulse bg-brand_orange/30 flex flex-row gap-x-6 items-center justify-between p-4"
   >
     <div class="w-3/12 items-center justify-center h-full flex">
       <img

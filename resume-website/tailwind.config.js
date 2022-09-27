@@ -16,7 +16,8 @@ module.exports = {
         brand_green: "#008D43",
       },
       animation: {
-        "spin-slow": "spin 14s linear infinite",
+        "spin-slow": "spin 8s linear infinite",
+        "bounce-slow": "bounce 3s infinite",
       },
       height: (theme) => ({
         "screen/2": "50vh",
@@ -43,5 +44,6 @@ module.exports = {
         variants: ["responsive", "hover"],
       });
     }),
+    
   ],
 };

@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
-    "daisyui": "^2.28.0",
     "lodash": "^4.17.21",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
