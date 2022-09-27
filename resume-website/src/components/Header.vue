@@ -39,7 +39,7 @@
 
           <div class="flex justify-end mr-20 mt-7">
             <span
-              class="w-10 h-10 border-4 border-brand_orange rounded-full grid place-items-center relative mb-4"
+              class="w-10 h-10 border-4 border-brand_orange rounded-full grid place-items-center relative mb-4 animate-spin-slow"
             >
               <span
                 class="absolute -bottom-10 -left-10 w-14 h-14 bg-brand_orange scale-150 rounded-full -z-1 bg-opacity-25"

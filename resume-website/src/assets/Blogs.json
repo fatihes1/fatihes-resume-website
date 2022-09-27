@@ -11,32 +11,32 @@
     "id": 2,
     "title": "Teachable Machine Turkish Directory",
     "desc": "Turkish guide explaining the use of the Google Teachable Machine tool.",
-    "tags": ["AI", "TensorFlow"],
-    "image": "https://i.ytimg.com/vi/yjprpOoH5c8/maxresdefault.jpg",
+    "tags": ["AI", "TensorFlow", "Keras"],
+    "image": "tensorflow-blog.png",
     "url": "https://www.linkedin.com/posts/fatihes_google-teachable-machine-t%C3%BCrk%C3%A7e-k%C4%B1lavuz-activity-6759132514192777216--Ck1?utm_source=share&utm_medium=member_desktop"
   },
   {
     "id": 3,
-    "title": "The Lord of the Rings",
-    "desc": "Description of the book",
-    "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
+    "title": "Behind the Scenes of Websites: Back-end",
+    "desc": "What is a backend developer in web development? What does it provide? How is it different from front-end development?",
+    "tags": ["Web", "Back-end", "API"],
+    "image": "back-end-blog.jpg",
+    "url": "https://fatihes.medium.com/web-sitelerinin-perde-arkas%C4%B1-back-end-abd54156923e"
   },
   {
     "id": 4,
-    "title": "The Lord of the Rings",
-    "desc": "Description of the book",
-    "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
+    "title": "Vue 3 Bootcamp Notes",
+    "desc": "An open source GitHub repository with all the sample code and notes for Vue 3 from scratch.",
+    "tags": ["Vue", "JavaScript", "Web"],
+    "image": "vue-blog.png",
+    "url": "https://github.com/fatihes1/Vue.js-bootcamp"
   },
   {
     "id": 5,
-    "title": "The Lord of the Rings",
-    "desc": "Description of the book",
-    "tags": ["fantasy", "fiction", "adventure"],
-    "image": "https://placeimg.com/400/225/arch",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6965575147021844480/"
+    "title": "Introduction to Command Line",
+    "desc": "A document containing zero-to-advanced commands for Linux command lines.",
+    "tags": ["CLI", "Linux", "Command"],
+    "image": "linux-blog.jpg",
+    "url": "https://www.linkedin.com/posts/fatihes_komut-sat%C4%B1rlar%C4%B1-t%C3%BCrk%C3%A7e-dok%C3%BCmantasyon-activity-6814917721852006400--fFF?utm_source=share&utm_medium=member_desktop"
   }
 ]

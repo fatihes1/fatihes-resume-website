@@ -22,34 +22,34 @@
       </div>
       <div class="flex flex-col gap-y-8 justify-between w-1/5">
         <div class="h-2/5">
-          <img :src="Blogs[1].image" class="w-full h-full rounded-xl" />
+          <ImageCard :image="Blogs[1].image" :blogUrl="Blogs[1].url" />
         </div>
         <div class="h-3/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <TextCard :blog="Blogs[1]" />
         </div>
       </div>
       <div class="flex flex-col gap-y-8 justify-between w-1/5">
         <div class="h-3/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <TextCard :blog="Blogs[2]" />
         </div>
         <div class="h-2/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <ImageCard :image="Blogs[2].image" :blogUrl="Blogs[2].url" />
         </div>
       </div>
       <div class="flex flex-col gap-y-8 justify-between w-1/5">
         <div class="h-2/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <ImageCard :image="Blogs[3].image" :blogUrl="Blogs[3].url" />
         </div>
         <div class="h-3/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <TextCard :blog="Blogs[3]" />
         </div>
       </div>
       <div class="flex flex-col gap-y-8 justify-between w-1/5">
         <div class="h-3/5">
-          <img :src="Blogs[4].image" class="w-full h-full rounded-xl" />
+          <TextCard :blog="Blogs[4]" />
         </div>
         <div class="h-2/5">
-          <div class="w-full h-full bg-orange-400 rounded-xl"></div>
+          <ImageCard :image="Blogs[4].image" :blogUrl="Blogs[4].url" />
         </div>
       </div>
     </div>

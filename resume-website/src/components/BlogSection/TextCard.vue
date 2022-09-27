@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full h-full bg-red-300/50 rounded-xl p-5 flex flex-col gap-y-5">
+  <div
+    class="w-full h-full bg-red-300/50 rounded-xl p-5 flex flex-col justify-around"
+  >
     <h1 class="text-2xl font-semibold text-center text-gray-700">
       {{ blog.title }}
     </h1>

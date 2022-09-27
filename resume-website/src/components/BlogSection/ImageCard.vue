@@ -1,5 +1,5 @@
 <template>
-  <a :href="blogUrl" target="_blank"
+  <a :href="blogUrl" class="bg-white" target="_blank"
     ><img
       :src="`src/assets/images/${image}`"
       class="w-full h-full rounded-xl object-cover"
