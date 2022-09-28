@@ -22,7 +22,7 @@
                 class="text-transparent bg-clip-text bg-gradient-to-r from-brand_green to-purple-600"
                 >Fatih</span
               ><span class="text-brand_orange text-6xl block mt-4"
-                >Software developer</span
+                >Software Developer</span
               >
             </h1>
           </div>
