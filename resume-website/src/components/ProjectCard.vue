@@ -1,13 +1,18 @@
 <template>
   <div>
     <div
-      class="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
+      class="overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
-      <img
-        class="object-cover w-full h-56 md:h-64 xl:h-80"
-        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+      <div
+        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-brand_green/75"
         alt="Person"
-      />
+      >
+        <div class="p-8 flex flex-col justify-center items-center">
+          <h1 class="text-white font-bold text-3xl text-center">
+            Sensor Monitoring System
+          </h1>
+        </div>
+      </div>
       <div
         class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100"
       >

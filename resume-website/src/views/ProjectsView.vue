@@ -1,7 +1,7 @@
 <template>
   <div class="calc-h-full-20 overflow-hidden container mx-auto">
     <div class="flex flex-col">
-      <div class="grid grid-cols-4 gap-10">
+      <div class="grid grid-cols-4 gap-10 mt-10">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

@@ -57,7 +57,12 @@
       </div>
     </div>
     <div class="flex flex-col justify-center items-center mr-5">
-      <router-link to="About">--></router-link>
+      <router-link to="About">
+        <img
+          src="../assets/images/arrow.webp"
+          class="w-10 h-5 animate-bounce"
+        />
+      </router-link>
     </div>
   </div>
 </template>
