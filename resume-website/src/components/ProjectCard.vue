@@ -4,13 +4,22 @@
       class="overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
       <div
-        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-brand_green/75"
+        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/70 to-brand_green/40"
         alt="Person"
       >
         <div class="p-8 flex flex-col justify-center items-center">
           <h1 class="text-white font-bold text-3xl text-center">
             Sensor Monitoring System
           </h1>
+
+          <div
+            class="grid justify-end grid-cols-4 gap-x-2 w-4/6 bg-yellow-100 px-5 py-2 rounded-lg"
+          >
+            <img class="icons" src="@/assets/images/programming/mongodb.svg" />
+            <img class="icons" src="@/assets/images/programming/socket.svg" />
+            <img class="icons" src="@/assets/images/programming/vue.svg" />
+            <img class="icons" src="@/assets/images/programming/node-js.svg" />
+          </div>
         </div>
       </div>
       <div

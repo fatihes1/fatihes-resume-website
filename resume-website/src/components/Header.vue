@@ -30,12 +30,12 @@
             <h2 class="text-gray-600 font-bold text-2xl">from Bursa, Turkey</h2>
           </div>
 
-          <a
-            href="/"
+          <router-link
+            to="About"
             class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce duration-300b"
           >
             DISCOVER
-          </a>
+          </router-link>
 
           <div class="flex justify-end mr-20 mt-7">
             <span
