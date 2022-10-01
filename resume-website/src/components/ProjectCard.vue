@@ -4,55 +4,66 @@
       class="overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
       <div
-        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/70 to-brand_green/40"
+        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/80 to-brand_green/40 flex justify-center items-center"
         alt="Person"
       >
-        <div class="p-8 flex flex-col justify-center items-center">
-          <h1 class="text-white font-bold text-3xl text-center">
-            Sensor Monitoring System
-          </h1>
-
+        <div class="p-8 flex flex-col gap-y-10 justify-center items-center">
+          <div class="flex flex-col">
+            <h1 class="text-white font-bold text-4xl text-center">
+              {{ project.title }}
+            </h1>
+            <div>
+              <!-- <img src="@/assets/images/programming/computer.webp" class="h-28" /> -->
+            </div>
+          </div>
           <div
-            class="grid justify-end grid-cols-4 gap-x-2 w-4/6 bg-yellow-100 px-5 py-2 rounded-lg"
+            class="flex flex-row gap-x-2 justify-center items-center align-middle bg-yellow-100 px-6 py-3 rounded-xl"
           >
-            <img class="icons" src="@/assets/images/programming/mongodb.svg" />
-            <img class="icons" src="@/assets/images/programming/socket.svg" />
+            <img
+              v-for="icons in project.techs"
+              class="w-10 h-10 align-middle"
+              :src="`src/assets/images/programming/${icons}.svg`"
+            />
+            <!-- <img class="icons" src="@/assets/images/programming/socket.svg" />
             <img class="icons" src="@/assets/images/programming/vue.svg" />
             <img class="icons" src="@/assets/images/programming/node-js.svg" />
+            <img class="icons" src="@/assets/images/programming/node-js.svg" /> -->
           </div>
         </div>
       </div>
       <div
-        class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100"
+        class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-80 opacity-0 hover:opacity-100"
       >
-        <p class="mb-1 text-lg font-bold text-gray-100">Oliver Aguilerra</p>
-        <p class="mb-4 text-xs text-gray-100">Product Manager</p>
-        <p class="mb-4 text-xs tracking-wide text-gray-400">
-          Vincent Van Gogh’s most popular painting, The Starry Night.
+        <p class="mb-1 text-lg font-extrabold text-gray-100">
+          {{ project.title }}
         </p>
-        <div class="flex items-center justify-center space-x-3">
+        <p class="mb-4 text-base text-gray-100">Fatih Es</p>
+        <p class="mb-4 tracking-wide font-medium text-gray-400">
+          {{ project.description }}
+        </p>
+        <div class="flex flex-col items-center justify-center space-x-3">
           <a
             href="/"
             class="text-white transition-colors duration-300 hover:text-teal-accent-400"
           >
-            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-              <path
-                d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
-              ></path>
-            </svg>
-          </a>
-          <a
-            href="/"
-            class="text-white transition-colors duration-300 hover:text-teal-accent-400"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-              <path
-                d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
-              ></path>
-            </svg>
+            <img
+              class="w-10 h-10"
+              src="@/assets/images/programming/github.svg"
+            />
           </a>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    project: {
+      type: Object,
+      required: true,
+    },
+  },
+};
+</script>

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Sensor Monitoring System",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["vue", "node-js", "tailwind-css", "mongodb", "socket"],
+    "isDiff": false
+  },
+  {
+    "id": 2,
+    "title": "Getir Website Clone - Only Frontend",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["vue", "tailwind-css", "npm"],
+    "isDiff": true
+  },
+  {
+    "id": 3,
+    "title": "Asana Website Clone - Only Backend",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["node-js", "mongodb", "socket", "nodejs", "npm"],
+    "isDiff": false
+  },
+  {
+    "id": 4,
+    "title": "Fast Typing  Web Application Vue 3",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["vue", "npm", "bootstrap", "node-js"],
+    "isDiff": true
+  },
+  {
+    "id": 5,
+    "title": "Online Quiz System Web App",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["laravel", "bootstrap", "php", "mysql", "npm"],
+    "isDiff": true
+  },
+  {
+    "id": 6,
+    "title": "Ekmek Teknesi - Find Job Platform",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["php", "mysql", "bootstrap", "javascript"],
+    "isDiff": false
+  },
+  {
+    "id": 7,
+    "title": "Save Ralph - JavaScript Canvas Game",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["html", "css3", "javascript"],
+    "isDiff": true
+  },
+  {
+    "id": 8,
+    "title": "GUI Bash Script for wget Command",
+    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
+    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "techs": ["linux"],
+    "isDiff": false
+  }
+]
