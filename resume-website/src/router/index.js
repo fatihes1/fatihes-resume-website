@@ -38,6 +38,10 @@ const router = createRouter({
       component: () => import("../views/SkillView.vue"),
     },
     // {
+    //   path: "*",
+    //   component: () => import("../views/NotFound.vue"),
+    // },
+    // {
     //   path: '/about',
     //   name: 'about',
     //   // route level code-splitting
