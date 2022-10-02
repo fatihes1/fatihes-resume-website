@@ -1,7 +1,7 @@
 <template>
   <a
     v-bind:href="icon.url"
-    class="flex flex-col gap-y-1 items-center justify-center h-16 w-16"
+    class="flex flex-col gap-y-1 items-center justify-center h-16 w-16 hover:animate-bounce-slow transition-all"
     target="_blank"
   >
     <img

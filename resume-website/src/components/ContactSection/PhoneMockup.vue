@@ -7,7 +7,9 @@
           class="flex flex-col justify-between w-full h-full bg-gradient-to-tl from-purple-400/70 to-purple-100/40"
         >
           <div class="my-12 mx-5">
-            <div class="flex flex-wrap gap-x-2 gap-y-8">
+            <div
+              class="flex flex-wrap gap-x-2 gap-y-8 animate__animated animate__fadeInDownBig"
+            >
               <SocialIcon
                 v-for="contact in contactInfo"
                 :key="id"

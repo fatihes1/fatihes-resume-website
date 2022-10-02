@@ -32,7 +32,7 @@
 
           <router-link
             to="About"
-            class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce duration-300b"
+            class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce-slow duration-300b"
           >
             DISCOVER
           </router-link>
