@@ -1,3 +1,17 @@
 <template>
-  <div class="calc-h-full-20 overflow-hidden">Skills Page</div>
+  <div class="calc-h-full-20 overflow-hidden">
+    <div class="container mx-auto">
+      <CoverSection />
+    </div>
+  </div>
 </template>
+
+<script>
+import CoverSection from "../components/SkilllsSection/CoverSection.vue";
+
+export default {
+  components: {
+    CoverSection,
+  },
+};
+</script>

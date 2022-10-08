@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
+      class="hover:cursor-pointer overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
       <div
         class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/80 to-brand_green/40 flex justify-center items-center"

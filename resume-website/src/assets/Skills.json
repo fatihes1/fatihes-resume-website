@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "mainTitle": "Front End",
+    "images": "frontend.png",
+    "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
+    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "url": "https://www.google.com"
+  },
+  {
+    "id": 2,
+    "mainTitle": "Back End",
+    "images": "backend.png",
+    "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
+    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "url": "https://www.google.com"
+  },
+  {
+    "id": 3,
+    "mainTitle": "DevOps",
+    "images": "devops.png",
+    "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
+    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "url": "https://www.google.com"
+  },
+  {
+    "id": 4,
+    "mainTitle": "AI/ML",
+    "images": "ai.png",
+    "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
+    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "url": "https://www.google.com"
+  }
+]

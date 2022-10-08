@@ -15,7 +15,7 @@
             <img
               src="@/assets/images/hand3.png"
               alt="hand"
-              class="-rotate-90 w-full"
+              class="w-full animate__animated animate__shakeX animate__infinite infinite animate__slower 3s"
             />
           </div>
           <div class="flex flex-col items-start gap-y-6 mt-5">
@@ -33,7 +33,7 @@
               <a
                 href="/"
                 aria-label=""
-                class="inline-flex w-full h-10 px-10 py-4 border-2 items-center font-semibold transition-colors duration-200 rounded-lg bg-base-100 hover:bg-purple-700 text-purple-700 hover:text-white border-purple-700 hover:border-purple-700"
+                class="inline-flex w-full h-10 px-10 py-5 border-2 items-center font-semibold transition-colors duration-200 rounded-lg bg-base-100 hover:bg-purple-700 text-purple-700 hover:text-white border-purple-700 hover:border-purple-700"
               >
                 Show CV
                 <svg
