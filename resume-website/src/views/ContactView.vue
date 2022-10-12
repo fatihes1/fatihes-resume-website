@@ -6,7 +6,7 @@
           <PhoneMockup class="animate__animated animate__fadeInLeftBig" />
         </div>
         <div
-          class="w-1/2 flex flex-col items-center animate__animated animate__fadeInRightBig"
+          class="w-1/2 flex flex-col items-start animate__animated animate__fadeInRightBig"
         >
           <h1 class="text-5xl font-bold text-gray-700">
             Get in Touch With Me!

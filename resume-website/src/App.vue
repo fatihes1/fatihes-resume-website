@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen overflow-hidden">
+  <div class="h-screen overflow-hidden bg-brand_background">
     <NavBar />
   </div>
 </template>
