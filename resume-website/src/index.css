@@ -2,7 +2,7 @@
 /* Normal Font */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"); */
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,6 +15,11 @@
     font-family: "Sedgwick Ave Display", cursive;
   }
 } */
+@layer components {
+  .code_title {
+    font-family: "Source Code Pro", monospace;
+  }
+}
 
 @layer base {
   html {

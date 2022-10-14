@@ -12,15 +12,15 @@
     "mainTitle": "Back End",
     "images": "backend.png",
     "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
-    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "skills": ["Laravel/ PHP", "Django/ Python", "Node.js/ Express"],
     "url": "https://www.google.com"
   },
   {
     "id": 3,
     "mainTitle": "DevOps",
-    "images": "devops.png",
+    "images": "cloud.png",
     "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
-    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "skills": ["AWS", "Docker", "GNU Linux"],
     "url": "https://www.google.com"
   },
   {
@@ -28,7 +28,7 @@
     "mainTitle": "AI/ML",
     "images": "ai.png",
     "description": "For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective.",
-    "skills": ["Vue 3", "React/ React Native", "Tailwind.css", "JavaScript"],
+    "skills": ["TensorFlow", "Matplotlib/ Seaborn", "Keras", "Scikit Learn"],
     "url": "https://www.google.com"
   }
 ]
