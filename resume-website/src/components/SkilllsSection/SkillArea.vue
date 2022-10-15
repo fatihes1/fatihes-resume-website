@@ -1,54 +1,153 @@
 <template>
-  <div>
-    <div class="flex items-center">
-      <img
-        :src="`src/assets/images/skills/${skillInfo.images}`"
-        class="w-40 h-40 object-contain"
-      />
-    </div>
-    <div>
-      <h6 class="mb-4 text-xl font-semibold leading-5">
-        {{ skillInfo.mainTitle }}
-      </h6>
-      <!-- <p class="mb-3 text-sm text-gray-900">
-        {{ skillInfo.description }}
-      </p> -->
-    </div>
-    <div>
-      <ul class="mb-4 -ml-1 space-y-2">
-        <li
-          class="flex items-start hover:cursor-pointer hover:font-semibold hover:text-amber-600"
-          v-for="skill in skillInfo.skills"
+  <div class="w-full max-w-md px-2 py-16 sm:px-0">
+    <TabGroup>
+      <TabList class="flex space-x-1 rounded-xl bg-blue-700 p-1">
+        <Tab
+          v-for="category in Object.keys(categories)"
+          as="template"
+          :key="category"
+          v-slot="{ selected }"
         >
-          <span class="mr-1">
-            <svg
-              class="w-5 h-5 mt-px text-deep-purple-accent-400"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
+          <button
+            :class="[
+              'w-full rounded-lg py-2.5 text-sm font-semibold leading-5 text-blue-700',
+              'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2 font-semibold',
+              selected
+                ? 'bg-white shadow'
+                : 'text-blue-100 hover:bg-white/[0.12] hover:text-white bg-blue-700',
+            ]"
+          >
+            {{ category }}
+          </button>
+        </Tab>
+      </TabList>
+
+      <TabPanels class="mt-2">
+        <TabPanel
+          v-for="(posts, idx) in Object.values(categories)"
+          :key="idx"
+          :class="[
+            'rounded-xl bg-white p-3',
+            'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+          ]"
+        >
+          <ul>
+            <li
+              v-for="post in posts"
+              :key="post.id"
+              class="relative rounded-md p-3 hover:bg-gray-100"
             >
-              <polygon
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
-          </span>
-          {{ skill }}
-        </li>
-      </ul>
-    </div>
+              <div class="flex flex-row items-center">
+                <img
+                  :src="`src/assets/images/programming/${post.image}.svg`"
+                  class="w-10 h-10 p-1"
+                  alt="avatar"
+                />
+                <h3 class="text-sm font-medium leading-5 ml-2">
+                  {{ post.title }}
+                </h3>
+              </div>
+
+              <a
+                href="#"
+                :class="[
+                  'absolute inset-0 rounded-md',
+                  'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2',
+                ]"
+              />
+            </li>
+          </ul>
+        </TabPanel>
+      </TabPanels>
+    </TabGroup>
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    skillInfo: {
-      type: Object,
-      required: true,
+<script setup>
+import { ref } from "vue";
+import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
+
+const categories = ref({
+  "Front End": [
+    {
+      id: 1,
+      title: "Vue 3 : The Progressive JavaScript Framework",
+      image: "vue",
     },
-  },
-};
+    {
+      id: 2,
+      title: "Tailwind CSS : A Utility-First CSS Framework",
+      image: "tailwind-css",
+    },
+    {
+      id: 3,
+      title:
+        "React / Native : A JavaScript library for building user interfaces",
+      image: "react",
+    },
+  ],
+  "Back End": [
+    {
+      id: 1,
+      title: "Laravel : The PHP Framework for Web Artisans",
+      image: "laravel",
+      commentCount: 29,
+      shareCount: 16,
+    },
+    {
+      id: 2,
+      title: "Django : The Web framework for perfectionists with deadlines",
+      image: "django",
+      commentCount: 24,
+      shareCount: 12,
+    },
+    {
+      id: 3,
+      title: "Express JS : Fast, unopinionated, minimalist web framework",
+      image: "nodejs",
+      commentCount: 24,
+      shareCount: 12,
+    },
+  ],
+  DevOps: [
+    {
+      id: 1,
+      title: "AWS : Amazon Web Services",
+      image: "aws",
+      commentCount: 9,
+      shareCount: 5,
+    },
+    {
+      id: 2,
+      title: "Docker : Build, Ship, and Run Any App, Anywhere",
+      image: "docker",
+      commentCount: 1,
+      shareCount: 2,
+    },
+    {
+      id: 3,
+      title: "GNU Linux : The Free Operating System",
+      image: "linux",
+      commentCount: 1,
+      shareCount: 2,
+    },
+  ],
+  "AI/ ML": [
+    {
+      id: 1,
+      title:
+        "TensorFlow : An end-to-end open source platform for machine learning",
+      image: "tensorflow",
+      commentCount: 9,
+      shareCount: 5,
+    },
+    {
+      id: 2,
+      title: "Seaborn / Matplotlib : Statistical data visualization",
+      image: "seaborn",
+      commentCount: 1,
+      shareCount: 2,
+    },
+  ],
+});
 </script>

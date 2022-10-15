@@ -2,7 +2,11 @@
 const plugin = require("tailwindcss/plugin");
 const _ = require("lodash");
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false,
   theme: {
@@ -45,5 +49,6 @@ module.exports = {
       });
     }),
     require("daisyui"),
+    require("tw-elements/dist/plugin"),
   ],
 };

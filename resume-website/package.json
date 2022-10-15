@@ -7,10 +7,12 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.3",
     "animate.css": "^4.1.1",
     "daisyui": "^2.31.0",
     "lodash": "^4.17.21",
     "pinia": "^2.0.21",
+    "tw-elements": "1.0.0-alpha12",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"
   },

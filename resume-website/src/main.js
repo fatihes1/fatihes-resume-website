@@ -2,9 +2,9 @@ import { createPinia } from "pinia";
 import { createApp } from "vue";
 
 import "animate.css";
+import "tw-elements";
 import App from "./App.vue";
 import router from "./router";
-
 // import "./assets/main.css";
 import "./index.css";
 
