@@ -18,6 +18,8 @@ module.exports = {
         brand_green_soft: "#70D096",
         brand_red: "#FB4F6E",
         brand_green: "#008D43",
+        brand_blue2: "#A5E1F9",
+        brand_red2: "#EE5B6E",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

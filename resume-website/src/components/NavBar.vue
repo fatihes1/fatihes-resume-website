@@ -3,7 +3,11 @@
     class="container mx-auto flex justify-between w-full bg-brand_background items-center font-bold mt-2 h-20"
   >
     <div class="ml-20">
-      <img class="w-28" src="../assets/images/es.png" alt="logo" />
+      <li>
+        <router-link to="/">
+          <img class="w-28" src="../assets/images/es.png" alt="logo" />
+        </router-link>
+      </li>
     </div>
     <div class="mr-20">
       <ul class="flex flex-row gap-x-16 text-2xl text-gray-700">

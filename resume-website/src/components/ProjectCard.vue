@@ -37,13 +37,13 @@
         <p class="mb-1 text-lg font-extrabold text-gray-100">
           {{ project.title }}
         </p>
-        <p class="mb-4 text-base text-gray-100">Fatih Es</p>
         <p class="mb-4 tracking-wide font-medium text-gray-400">
           {{ project.description }}
         </p>
         <div class="flex flex-col items-center justify-center space-x-3">
           <a
-            href="/"
+            :href="project.url"
+            target="_blank"
             class="text-white transition-colors duration-300 hover:text-teal-accent-400"
           >
             <img

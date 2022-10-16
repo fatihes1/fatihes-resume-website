@@ -10,56 +10,56 @@
   {
     "id": 2,
     "title": "Getir Website Clone - Only Frontend",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "The business Getir was established in 2015. It offers delivery service for groceries and restaurant cuisine through its smartphone app. In this project, the web page for the Bring brand's main page was copied.",
+    "url": "https://github.com/fatihes1/getir-clone-vue3",
     "techs": ["vue", "tailwind-css", "npm"],
     "isDiff": true
   },
   {
     "id": 3,
     "title": "Asana Website Clone - Only Backend",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "A dashboard for managing the workplace called Asana makes it easier for teams and organizations to communicate with one another. There are API codes in this project's clone of the Asana online application.",
+    "url": "https://github.com/fatihes1/Asana-Clone-with-Vue.js-Docker",
     "techs": ["node-js", "mongodb", "socket", "nodejs", "npm"],
     "isDiff": false
   },
   {
     "id": 4,
     "title": "Fast Typing  Web Application Vue 3",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "This project produced a keyboard typing speed-improving program. It seeks to display how many words you have written in a minute and how many are correct by having you type the words that appear on the screen.",
+    "url": "https://github.com/fatihes1/fast-typing-with-vue",
     "techs": ["vue", "npm", "bootstrap", "node-js"],
     "isDiff": true
   },
   {
     "id": 5,
     "title": "Online Quiz System Web App",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "Quizzes can be produced by teachers and entered by students using an online web application.",
+    "url": "https://github.com/fatihes1/online-quiz-project-laravel",
     "techs": ["laravel", "bootstrap", "php", "mysql", "npm"],
     "isDiff": true
   },
   {
     "id": 6,
     "title": "Ekmek Teknesi - Find Job Platform",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "A platform called EkmekTeknesi was created to serve as a meeting place for employers and job seekers.",
+    "url": "https://github.com/fatihes1/ekmek-teknesi",
     "techs": ["php", "mysql", "bootstrap", "javascript"],
     "isDiff": false
   },
   {
     "id": 7,
     "title": "Save Ralph - JavaScript Canvas Game",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "Two-dimensional (2D) online game created with HTML and Javascript.",
+    "url": "https://github.com/fatihes1/save-ralph",
     "techs": ["html", "css3", "javascript"],
     "isDiff": true
   },
   {
     "id": 8,
     "title": "GUI Bash Script for wget Command",
-    "description": "A platform where data collected from a network of sensors placed in a region is stored and displayed in real-time.",
-    "url": "https://github.com/fatihes1/Sensor-Monitoring-Dashborard-w-Vue3-NodeJS",
+    "description": "A GUI script for the GNU Linux tool 'wget'.",
+    "url": "https://github.com/fatihes1/GUI-Bash-Script--wget",
     "techs": ["linux"],
     "isDiff": false
   }

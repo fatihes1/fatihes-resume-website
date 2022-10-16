@@ -1,18 +1,18 @@
 <template>
   <div class="mx-auto max-w-screen-xl">
     <div class="flex flex-row">
-      <div class="w-1/2">
+      <div class="w-1/2 animate__animated animate__backInRight">
         <h1 class="text-center text-5xl mx-auto mt-10 font-bold text-gray-700">
-          Check out My Skills
+          Check Out My Skills
         </h1>
         <img src="@/assets/images/avatar1.png" class="w-80 h-80 mx-auto" />
         <SkillArea class="mx-auto" />
       </div>
-      <div class="w-1/2">
+      <div class="w-1/2 flex flex-col animate__animated animate__backInLeft">
         <h1 class="text-center text-5xl mx-auto mt-10 font-bold text-gray-700">
           Experiences
         </h1>
-        <Career class="mx-auto mt-8" />
+        <Career class="mx-auto mt-10" />
       </div>
     </div>
   </div>

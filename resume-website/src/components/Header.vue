@@ -1,8 +1,5 @@
 <template>
   <div class="flex flex-row">
-    <div class="flex flex-col justify-center items-center ml-5">
-      <router-link to="Contact">Geri</router-link>
-    </div>
     <div class="container mx-auto calc-h-full-40">
       <div class="flex">
         <div class="flex flex-col gap-y-3 w-1/2">
@@ -32,7 +29,7 @@
 
           <router-link
             to="About"
-            class="bg-gradient-to-b from-brand_orange/80 to-brand_orange w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce-slow duration-300b"
+            class="bg-gradient-to-b from-brand_red2/75 to-brand_red2 w-1/4 px-10 py-4 text-center rounded-full ml-20 mt-4 text-lg font-bold text-white animate-bounce-slow duration-300b"
           >
             DISCOVER
           </router-link>
@@ -55,14 +52,6 @@
           />
         </div>
       </div>
-    </div>
-    <div class="flex flex-col justify-center items-center mr-5">
-      <router-link to="About">
-        <img
-          src="../assets/images/arrow.webp"
-          class="w-10 h-5 animate-bounce"
-        />
-      </router-link>
     </div>
   </div>
 </template>
