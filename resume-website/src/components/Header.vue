@@ -13,7 +13,7 @@
             </span>
           </div>
           <div class="font-bold text-8xl ml-20 mt-14">
-            <h1>
+            <h1 class="dark:text-gray-200">
               Hi! I am
               <span
                 class="text-transparent bg-clip-text bg-gradient-to-r from-brand_green to-purple-600"
@@ -24,7 +24,7 @@
             </h1>
           </div>
           <div class="ml-20 mt-4">
-            <h2 class="text-gray-600 font-bold text-2xl">from Bursa, Turkey</h2>
+            <h2 class="text-gray-600 dark:text-gray-200 font-bold text-2xl">from Bursa, Turkey</h2>
           </div>
 
           <router-link

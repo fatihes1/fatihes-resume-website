@@ -20,16 +20,16 @@
         <div
           class="w-5/12 flex flex-col gap-y-12 items-start mr-24 mt-9 animate__animated animate__bounceInDown"
         >
-          <h1 class="text-5xl font-bold text-gray-700">Learn more about me!</h1>
+          <h1 class="text-5xl font-bold text-gray-700 dark:text-gray-200">Learn more about me!</h1>
           <div class="flex flex-row justify-center mx-auto">
-            <div class="text-xl flex flex-col gap-y-2 font-bold text-gray-700">
+            <div class="text-xl flex flex-col gap-y-2 font-bold text-gray-700 dark:text-gray-300">
               <h2>Birth:</h2>
               <h2>City:</h2>
               <h2>University:</h2>
               <h2>Department:</h2>
               <h2>Degree:</h2>
             </div>
-            <div class="text-xl text-gray-500 ml-4 flex flex-col gap-y-2">
+            <div class="text-xl text-gray-500 ml-4 flex flex-col gap-y-2 dark:text-gray-300">
               <h2>12 Feb 1999</h2>
               <h2>Bursa/ Turkey</h2>
               <h2>Bursa Technical University</h2>
@@ -37,7 +37,7 @@
               <h2>Bachelor</h2>
             </div>
           </div>
-          <h1 class="text-2xl font-medium text-gray-500">
+          <h1 class="text-2xl font-medium text-gray-500 dark:text-gray-200">
             Hi! Fatih from Turkey here. As a junior full stack web developer, I
             wish to pursue this field as a career. Time is the most valuable
             resource we have in life. I enjoy improving myself and doing things
@@ -76,7 +76,7 @@
         <div
           class="w-5/12 flex flex-col gap-y-6 items-start animate__animated animate__bounceInUp"
         >
-          <h1 class="text-5xl font-bold text-gray-700 mt-8">Communities</h1>
+          <h1 class="text-5xl font-bold text-gray-700 dark:text-gray-200 mt-8">Communities</h1>
           <CommunityCard
             v-for="community in CommunityInfo"
             key="id"
