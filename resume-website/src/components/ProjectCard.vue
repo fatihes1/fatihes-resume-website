@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <a :href="project.url">
     <div
       class="hover:cursor-pointer overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
       <div
-        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/80 to-brand_green/40 flex justify-center items-center"
+        class="object-cover w-full h-1/2 md:h-64 xl:h-80 bg-gradient-to-b from-brand_green/80 to-brand_green/40 dark:from-brand_green_soft dark:to-brand_green_soft/70 flex justify-center items-center"
         alt="Person"
       >
         <div class="p-8 flex flex-col gap-y-10 justify-center items-center">
@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </template>
 
 <script>

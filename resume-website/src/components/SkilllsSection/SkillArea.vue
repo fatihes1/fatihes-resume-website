@@ -13,7 +13,7 @@
               'w-full rounded-lg py-2.5 text-sm font-semibold leading-5',
               'ring-white ring-opacity-60 ring-offset-2 ring-offset-brand_red2 focus:outline-none focus:ring-2 font-semibold',
               selected
-                ? 'bg-white shadow text-brand_red2'
+                ? 'bg-white shadow text-brand_red2 dark:text-white dark:bg-gray-800'
                 : 'text-white hover:bg-white/[0.12] hover:text-white bg-brand_red2',
             ]"
           >
@@ -27,7 +27,7 @@
           v-for="(posts, idx) in Object.values(categories)"
           :key="idx"
           :class="[
-            'rounded-xl bg-white p-3',
+            'rounded-xl bg-white dark:bg-dark_background p-3',
             'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
           ]"
         >
@@ -35,7 +35,7 @@
             <li
               v-for="post in posts"
               :key="post.id"
-              class="relative rounded-md p-3 hover:bg-gray-100"
+              class="relative rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               <div class="flex flex-row items-center">
                 <img
@@ -43,7 +43,9 @@
                   class="w-10 h-10 p-1"
                   alt="avatar"
                 />
-                <h3 class="text-sm font-medium leading-5 ml-2">
+                <h3
+                  class="text-sm font-medium leading-5 ml-2 dark:text-gray-100"
+                >
                   {{ post.title }}
                 </h3>
               </div>

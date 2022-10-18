@@ -8,7 +8,7 @@
               class="w-16 h-16 border-4 border-brand_green rounded-full grid place-items-center relative mb-4 animate-spin-slow"
             >
               <span
-                class="absolute -top-6 -left-10 w-16 h-16 bg-brand_green scale-95 rounded-full -z-1 bg-opacity-25"
+                class="absolute -top-6 -left-10 w-16 h-16 bg-brand_green scale-95 rounded-full -z-1 bg-opacity-25 dark:bg-opacity-100"
               ></span>
             </span>
           </div>
@@ -24,7 +24,9 @@
             </h1>
           </div>
           <div class="ml-20 mt-4">
-            <h2 class="text-gray-600 dark:text-gray-200 font-bold text-2xl">from Bursa, Turkey</h2>
+            <h2 class="text-gray-600 dark:text-gray-200 font-bold text-2xl">
+              from Bursa, Turkey
+            </h2>
           </div>
 
           <router-link
@@ -39,7 +41,7 @@
               class="w-10 h-10 border-4 border-brand_orange rounded-full grid place-items-center relative mb-4 animate-spin-slow"
             >
               <span
-                class="absolute -bottom-10 -left-10 w-14 h-14 bg-brand_orange scale-150 rounded-full -z-1 bg-opacity-25"
+                class="absolute -bottom-10 -left-10 w-14 h-14 bg-brand_orange scale-150 rounded-full -z-1 bg-opacity-25 dark:bg-opacity-100"
               ></span>
             </span>
           </div>

@@ -1,24 +1,34 @@
 <template>
   <div
-    class="w-full h-full bg-red-300/50 rounded-xl p-5 flex flex-col justify-around"
+    class="w-full h-full bg-red-300/50 dark:bg-red-400/80 rounded-xl p-5 flex flex-col justify-around"
   >
-    <h1 class="text-2xl font-semibold text-center text-gray-700">
+    <h1
+      class="text-2xl font-semibold text-center text-gray-700 dark:text-gray-100"
+    >
       {{ blog.title }}
     </h1>
-    <h1 class="text-lg">{{ blog.desc }}</h1>
-    <div class="flex flex-row gap-x-2 justify-center text-sm font-semibold">
-      <span class="border-2 border-gray-600 px-3 py-1 rounded-full">{{
-        blog.tags[0]
-      }}</span>
-      <span class="border-2 border-gray-600 px-2 py-1 rounded-full">{{
-        blog.tags[1]
-      }}</span>
-      <span class="border-2 border-gray-600 px-2 py-1 rounded-full">{{
-        blog.tags[2]
-      }}</span>
+    <h1 class="text-lg dark:text-gray-200">{{ blog.desc }}</h1>
+    <div
+      class="flex flex-row gap-x-2 justify-center text-sm font-semibold dark:text-gray-100"
+    >
+      <span
+        class="border-2 border-gray-600 dark:border-gray-200 px-3 py-1 rounded-full"
+        >{{ blog.tags[0] }}</span
+      >
+      <span
+        class="border-2 border-gray-600 dark:border-gray-200 px-2 py-1 rounded-full"
+        >{{ blog.tags[1] }}</span
+      >
+      <span
+        class="border-2 border-gray-600 dark:border-gray-200 px-2 py-1 rounded-full"
+        >{{ blog.tags[2] }}</span
+      >
     </div>
 
-    <a v-bind:href="blog.url" target="_blank" class="text-right hover:underline"
+    <a
+      v-bind:href="blog.url"
+      target="_blank"
+      class="text-right hover:underline dark:text-gray-100"
       >Read more...</a
     >
   </div>

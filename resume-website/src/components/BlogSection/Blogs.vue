@@ -7,7 +7,9 @@
         >
           Check out some of my blogs
         </h1>
-        <h2 class="text-center font-medium text-lg text-gray-700 mt-2">
+        <h2
+          class="text-center font-medium text-lg text-gray-700 mt-2 dark:text-gray-100"
+        >
           Articles created in order to increase the number of resources in
           Turkish on various technological subjects.
         </h2>

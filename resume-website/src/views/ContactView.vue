@@ -8,7 +8,7 @@
         <div
           class="w-1/2 flex flex-col items-start animate__animated animate__fadeInRightBig"
         >
-          <h1 class="text-5xl font-bold text-gray-700">
+          <h1 class="text-5xl font-bold text-gray-700 dark:text-purple-700">
             Get in Touch With Me!
           </h1>
           <div>
@@ -19,13 +19,13 @@
             />
           </div>
           <div class="flex flex-col items-start gap-y-6 mt-5">
-            <h2 class="text-2xl font-medium text-gray-600">
+            <h2 class="text-2xl font-medium text-gray-600 dark:text-gray-100">
               Hello, you can get in touch with me via the phone connections on
               the side. You are free to enquire about whatever you are
               interested in, solicit advise from others, and of course, offer
               your own.
             </h2>
-            <h2 class="text-2xl font-medium text-gray-600">
+            <h2 class="text-2xl font-medium text-gray-600 dark:text-gray-100">
               Please click the button below to view my CV if you are thinking
               about hiring me.
             </h2>
@@ -33,7 +33,7 @@
               <a
                 href="/"
                 aria-label=""
-                class="inline-flex w-full h-10 px-10 py-5 border-2 items-center font-semibold transition-colors duration-200 rounded-lg bg-base-100 hover:bg-purple-700 text-purple-700 hover:text-white border-purple-700 hover:border-purple-700"
+                class="inline-flex w-full h-10 px-10 py-5 border-2 items-center font-semibold transition-colors duration-200 rounded-lg bg-base-100 dark:bg-purple-700 dark:text-gray-50 dark:hover:bg-slate-50 dark:hover:text-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white border-purple-700 hover:border-purple-700"
               >
                 Show CV
                 <svg
