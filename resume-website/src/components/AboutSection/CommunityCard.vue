@@ -1,6 +1,9 @@
 <template>
-  <div
-    class="w-11/12 h-28 rounded-2xl shadow-xl hover:bg-brand_orange/60 dark:hover:bg-brand_orange transition-colors bg-brand_orange/30 dark:bg-brand_orange/90 flex flex-row gap-x-6 items-center justify-between p-4 cursor-pointer"
+  <a
+    v-bind:href="community.detailURL"
+    target="_blank"
+    v-wave="{ duration: 0.3, color: 'black' }"
+    class="w-11/12 h-28 rounded-md md:rounded-2xl shadow-md md:shadow-xl hover:bg-brand_orange/60 dark:hover:bg-brand_orange transition-colors bg-brand_orange/30 dark:bg-brand_orange/90 flex flex-row gap-x-3 md:gap-x-6 items-center justify-between p-3 md:p-4 cursor-pointer"
   >
     <div class="w-3/12 items-center justify-center h-full flex">
       <img
@@ -10,7 +13,7 @@
       />
     </div>
     <div class="w-6/12 justify-start h-full flex flex-col">
-      <h1 class="font-semibold text-gray-700 text-lg dark:text-gray-200">
+      <h1 class="font-semibold text-gray-700 md:text-lg dark:text-gray-200">
         {{ community.title }}
       </h1>
       <a
@@ -28,7 +31,7 @@
       <h1 class="items-center">-</h1>
       <h1>{{ community.end_date }}</h1>
     </div>
-  </div>
+  </a>
 </template>
 
 <script>

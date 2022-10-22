@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-md px-2 py-16 sm:px-0">
+  <div class="w-full max-w-md px-2 py-6 md:py-16 sm:px-0">
     <TabGroup>
       <TabList class="flex space-x-1 rounded-xl bg-brand_red2 p-1">
         <Tab

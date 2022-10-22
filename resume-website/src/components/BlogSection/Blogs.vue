@@ -1,27 +1,29 @@
 <template>
-  <div class="container mx-auto h-screen">
-    <div class="calc-h-full-20">
-      <div class="h-20 flex flex-col justify-center items-center">
+  <div class="container mx-auto h-full md:h-screen">
+    <div class="md:calc-h-full-20">
+      <div class="md:h-20 flex flex-col justify-center items-center">
         <h1
-          class="text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-500 to-purple-600"
+          class="text-center text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-cyan-500 to-purple-600"
         >
           Check out some of my blogs
         </h1>
         <h2
-          class="text-center font-medium text-lg text-gray-700 mt-2 dark:text-gray-100"
+          class="text-center font-medium text-base md:text-lg text-gray-700 mt-2 dark:text-gray-100"
         >
           Articles created in order to increase the number of resources in
           Turkish on various technological subjects.
         </h2>
       </div>
-      <div class="flex flex-row gap-x-8 w-full calc-h-full-40 mt-4">
+      <div
+        class="flex flex-col md:flex-row md:gap-x-8 w-full calc-h-full-40 mt-4"
+      >
         <div
-          class="flex flex-col gap-y-8 h-full w-1/5 animate__animated animate__bounceInDown"
+          class="flex flex-row md:flex-col md:gap-y-8 md:h-full w-full md:w-1/5 animate__animated animate__bounceInDown"
         >
-          <div class="h-3/5 w-full">
+          <div class="md:h-3/5 w-full">
             <TextCard :blog="Blogs[0]" />
           </div>
-          <div class="h-2/5">
+          <div class="md:h-2/5">
             <ImageCard :image="Blogs[0].image" :blogUrl="Blogs[0].url" />
           </div>
         </div>

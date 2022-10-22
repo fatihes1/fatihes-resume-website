@@ -31,7 +31,8 @@
             </h2>
             <div class="text-center">
               <a
-                href="/"
+                v-wave
+                href="#"
                 aria-label=""
                 class="inline-flex w-full h-10 px-10 py-5 border-2 items-center font-semibold transition-colors duration-200 rounded-lg bg-base-100 dark:bg-purple-700 dark:text-gray-50 dark:hover:bg-slate-50 dark:hover:text-purple-700 hover:bg-purple-700 text-purple-700 hover:text-white border-purple-700 hover:border-purple-700"
               >

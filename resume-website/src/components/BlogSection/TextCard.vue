@@ -26,6 +26,7 @@
     </div>
 
     <a
+      v-wave="{ duration: 0.9, color: 'black' }"
       v-bind:href="blog.url"
       target="_blank"
       class="text-right hover:underline dark:text-gray-100"
