@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row">
+  <div class="flex md:mx-auto flex-col md:flex-row">
     <div class="container mx-auto md:calc-h-full-40">
       <div class="flex flex-col md:flex-row">
         <div class="flex flex-col gap-y-1 md:gap-y-3 w-full md:w-1/2">

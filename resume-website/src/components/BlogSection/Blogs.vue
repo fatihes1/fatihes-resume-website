@@ -15,55 +15,55 @@
         </h2>
       </div>
       <div
-        class="flex flex-col md:flex-row md:gap-x-8 w-full calc-h-full-40 mt-4"
+        class="flex flex-col gap-y-4 md:gap-y-0 md:flex-row md:gap-x-8 w-full calc-h-full-40 mt-4"
       >
         <div
           class="flex flex-row md:flex-col md:gap-y-8 md:h-full w-full md:w-1/5 animate__animated animate__bounceInDown"
         >
-          <div class="md:h-3/5 w-full">
+          <div class="md:h-3/5 w-full mx-3 md:mx-0">
             <TextCard :blog="Blogs[0]" />
           </div>
-          <div class="md:h-2/5">
+          <div class="md:h-2/5 hidden md:visible">
             <ImageCard :image="Blogs[0].image" :blogUrl="Blogs[0].url" />
           </div>
         </div>
         <div
-          class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInUp"
+          class="flex flex-row md:flex-col md:gap-y-8 justify-between w-full md:w-1/5 animate__animated animate__bounceInUp"
         >
-          <div class="h-2/5">
+          <div class="h-2/5 hidden md:visible">
             <ImageCard :image="Blogs[1].image" :blogUrl="Blogs[1].url" />
           </div>
-          <div class="h-3/5">
+          <div class="h-3/5 w-full mx-3 md:mx-0">
             <TextCard :blog="Blogs[1]" />
           </div>
         </div>
         <div
-          class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInDown"
+          class="flex flex-row md:flex-col md:gap-y-8 md:justify-between w-full md:w-1/5 animate__animated animate__bounceInDown"
         >
-          <div class="h-3/5">
+          <div class="h-3/5 mx-3 md:mx-0">
             <TextCard :blog="Blogs[2]" />
           </div>
-          <div class="h-2/5">
+          <div class="h-2/5 hidden md:visible">
             <ImageCard :image="Blogs[2].image" :blogUrl="Blogs[2].url" />
           </div>
         </div>
         <div
-          class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInUp"
+          class="flex flex-row md:flex-col md:gap-y-8 justify-between w-full md:w-1/5 animate__animated animate__bounceInUp"
         >
-          <div class="h-2/5">
+          <div class="h-2/5 hidden md:visible">
             <ImageCard :image="Blogs[3].image" :blogUrl="Blogs[3].url" />
           </div>
-          <div class="h-3/5">
+          <div class="h-3/5 mx-3 md:mx-0">
             <TextCard :blog="Blogs[3]" />
           </div>
         </div>
         <div
-          class="flex flex-col gap-y-8 justify-between w-1/5 animate__animated animate__bounceInDown"
+          class="flex mb-4 md:mb-0 flex-row md:flex-col md:gap-y-8 justify-between w-full md:w-1/5 animate__animated animate__bounceInDown"
         >
-          <div class="h-3/5">
+          <div class="h-3/5 mx-3 md:mx-0">
             <TextCard :blog="Blogs[4]" />
           </div>
-          <div class="h-2/5">
+          <div class="h-2/5 hidden md:visible">
             <ImageCard :image="Blogs[4].image" :blogUrl="Blogs[4].url" />
           </div>
         </div>
