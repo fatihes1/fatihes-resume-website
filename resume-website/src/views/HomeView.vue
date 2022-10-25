@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header class="mt-20" />
+    <Header class="md:mt-20 mt-4" />
   </div>
 </template>
 

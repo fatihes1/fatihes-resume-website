@@ -158,12 +158,17 @@
     </div>
     <div class="drawer-side">
       <label for="my-drawer-4" class="drawer-overlay"></label>
-      <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+      <ul
+        class="menu p-4 overflow-y-auto w-80 text-base-content bg-brand_background dark:bg-dark_background pt-20"
+      >
         <!-- Sidebar content here -->
         <ul
           class="flex flex-col gap-y-5 text-2xl text-gray-700 dark:text-gray-200 items-center"
         >
           <li>
+            <label for="my-drawer-4"> X </label>
+          </li>
+          <li class="focus:bg-slate-50">
             <router-link to="/">Home</router-link>
           </li>
           <li>
@@ -181,7 +186,7 @@
           <li>
             <router-link to="/contact">Contact & Follow Me</router-link>
           </li>
-
+          <li class="text-sm -mt-4">Created by Fatih ES © 2022</li>
           <!-- <li>
             <label class="swap swap-rotate p-2 rounded-md">
               

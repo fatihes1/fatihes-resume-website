@@ -1,24 +1,35 @@
 <template>
-  <div class="calc-h-full-20 overflow-hidden">
-    <div class="container mx-auto mt-14">
-      <div class="flex flex-row justify-center">
-        <div class="w-1/2 flex justify-end">
+  <div
+    class="md:calc-h-full-20 overflow-y-auto overflow-x-hidden md:overflow-hidden mb-8 md:mb-0"
+  >
+    <div class="container mx-auto mt-4 md:mt-14">
+      <div class="flex flex-col md:flex-row justify-center">
+        <div class="w-full md:w-1/2 flex justify-end">
           <PhoneMockup class="animate__animated animate__fadeInLeftBig" />
         </div>
         <div
-          class="w-1/2 flex flex-col items-start animate__animated animate__fadeInRightBig"
+          class="w-full md:w-1/2 flex flex-col items-start animate__animated animate__fadeInRightBig"
         >
-          <h1 class="text-5xl font-bold text-gray-700 dark:text-purple-700">
+          <h1
+            class="text-5xl mt-5 md:mt-0 font-bold text-center md:text-left text-gray-700 dark:text-purple-700"
+          >
             Get in Touch With Me!
           </h1>
-          <div>
+          <div class="mx-auto md:mx-0">
             <img
               src="@/assets/images/hand3.png"
               alt="hand"
-              class="w-full animate__animated animate__shakeX animate__infinite infinite animate__slower 3s"
+              class="w-full animate__animated hidden md:flex animate__shakeX animate__infinite infinite animate__slower 3s"
+            />
+            <img
+              src="@/assets/images/hand2.png"
+              alt="hand"
+              class="w-full animate-bounce-slow mt-8 md:hidden mx-auto"
             />
           </div>
-          <div class="flex flex-col items-start gap-y-6 mt-5">
+          <div
+            class="flex flex-col mx-4 md:mx-0 text-center md:text-left items-center md:items-start gap-y-6 mt-5"
+          >
             <h2 class="text-2xl font-medium text-gray-600 dark:text-gray-100">
               Hello, you can get in touch with me via the phone connections on
               the side. You are free to enquire about whatever you are
