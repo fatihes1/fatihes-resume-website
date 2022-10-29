@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Blogs class="h-full md:calc-h-full-20 md:mt-5 overflow-x-hidden" />
+    <Blogs class="h-full lg:calc-h-full-20 lg:mt-5 overflow-x-hidden sm:px-5" />
   </div>
 </template>
 

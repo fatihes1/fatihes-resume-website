@@ -1,9 +1,9 @@
 <template>
-  <div class="mx-auto md:max-w-screen-xl">
-    <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 animate__animated animate__backInRight">
+  <div class="mx-auto lg:max-w-screen-xl">
+    <div class="flex flex-col lg:flex-row">
+      <div class="w-full lg:w-1/2 animate__animated animate__backInRight">
         <h1
-          class="text-center text-3xl md:text-5xl mx-auto mt-5 md:mt-10 font-bold text-gray-700 dark:text-gray-100"
+          class="text-center text-3xl lg:text-5xl mx-auto mt-5 lg:mt-10 font-bold text-gray-700 dark:text-gray-100"
         >
           Check Out My Skills
         </h1>
@@ -11,14 +11,14 @@
         <SkillArea class="mx-auto" />
       </div>
       <div
-        class="w-full md:w-1/2 flex flex-col animate__animated animate__backInLeft"
+        class="w-full lg:w-1/2 flex flex-col animate__animated animate__backInLeft"
       >
         <h1
-          class="text-center text-3xl md:text-5xl mx-auto mt- md:mt-10 font-bold text-gray-700 dark:text-gray-100"
+          class="text-center text-3xl lg:text-5xl mx-auto mt- lg:mt-10 font-bold text-gray-700 dark:text-gray-100"
         >
           Experiences
         </h1>
-        <Career class="mx-auto mt-5 mb-4 md:mb-0 md:mt-10" />
+        <Career class="mx-auto mt-5 mb-4 lg:mb-0 lg:mt-10" />
       </div>
     </div>
   </div>

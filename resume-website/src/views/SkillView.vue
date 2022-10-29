@@ -1,5 +1,5 @@
 <template>
-  <div class="md:calc-h-full-20 md:overflow-hidden">
+  <div class="lg:calc-h-full-20 lg:overflow-hidden md:overflow-y-auto sm:px-8">
     <div class="container mx-auto">
       <CoverSection />
     </div>

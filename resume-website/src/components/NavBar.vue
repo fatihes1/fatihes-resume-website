@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container hidden md:flex dark:bg-dark_background mx-auto justify-between w-full bg-brand_background items-center font-bold mt-2 h-20"
+    class="fixed-top container hidden lg:flex dark:bg-dark_background mx-auto justify-between w-full bg-brand_background items-center font-bold mt-2 h-20"
   >
     <div class="ml-20">
       <router-link to="/">
@@ -69,7 +69,7 @@
     </div>
   </div>
 
-  <div class="drawer drawer-end md:hidden">
+  <div class="drawer drawer-end lg:hidden">
     <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
       <!-- Page content here -->

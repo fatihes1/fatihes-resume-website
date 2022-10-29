@@ -3,7 +3,7 @@
     v-bind:href="community.detailURL"
     target="_blank"
     v-wave="{ duration: 0.3, color: 'black' }"
-    class="w-11/12 h-28 rounded-md md:rounded-2xl shadow-md md:shadow-xl hover:bg-brand_orange/60 dark:hover:bg-brand_orange transition-colors bg-brand_orange/30 dark:bg-brand_orange/90 flex flex-row gap-x-3 md:gap-x-6 items-center justify-between p-3 md:p-4 cursor-pointer"
+    class="w-11/12 h-28 md:mt-4 rounded-md md:rounded-2xl shadow-md md:shadow-xl hover:bg-brand_orange/60 dark:hover:bg-brand_orange transition-colors bg-brand_orange/30 dark:bg-brand_orange/90 flex flex-row gap-x-3 md:gap-x-6 items-center justify-between p-3 md:p-4 cursor-pointer"
   >
     <div class="w-3/12 items-center justify-center h-full flex">
       <img

@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "title": "Ekmek Teknesi - Find Job Platform",
+    "title": "Ekmek Teknesi - Job Finding Platform",
     "description": "A platform called EkmekTeknesi was created to serve as a meeting place for employers and job seekers.",
     "url": "https://github.com/fatihes1/ekmek-teknesi",
     "techs": ["php", "mysql", "bootstrap", "javascript"],

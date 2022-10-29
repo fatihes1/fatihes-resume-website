@@ -10,11 +10,7 @@
             <div
               class="flex flex-wrap gap-x-2 gap-y-8 animate__animated animate__fadeInDownBig"
             >
-              <SocialIcon
-                v-for="contact in contactInfo"
-                :key="id"
-                :icon="contact"
-              />
+              <SocialIcon v-for="contact in contactInfo" :icon="contact" />
             </div>
           </div>
           <div class="mb-10 mx-5">

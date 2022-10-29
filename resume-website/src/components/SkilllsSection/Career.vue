@@ -7,27 +7,27 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne"
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls="collapseOne"
         >
           <div class="flex flex-row w-full">
-            <div class="w-2/6 md:w-1/6">
+            <div class="w-2/6 sm:w-1/6 lg:w-1/6">
               <img
                 src="@/assets/images/companies/nette.jpeg"
-                class="w-20 h-20 rounded-md"
+                class="w-20 h-20 rounded-lg"
                 alt="avatar"
               />
             </div>
             <div class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center">
-              <h1 class="text-xl md:text-2xl font-semibold">
+              <h1 class="text-xl lg:text-2xl font-semibold">
                 Software Developer
               </h1>
-              <h2 class="text-sm md:text-base font-medium">
+              <h2 class="text-sm lg:text-base font-medium">
                 Nette Interactive - Long Term Intern
               </h2>
             </div>
             <div
-              class="text-gray-700 hidden md:flex md:w-1/6 flex-row justify-center items-center"
+              class="text-gray-700 hidden sm:flex sm:w-1/6 lg:flex lg:w-1/6 flex-row justify-center items-center"
             >
               <h2>Oct 2022 - Currently</h2>
             </div>
@@ -64,21 +64,21 @@
           aria-controls="collapseTwo"
         >
           <div class="flex flex-row w-full">
-            <div class="w-2/6 md:w-1/6">
+            <div class="w-2/6 sm:w-1/6 lg:w-1/6">
               <img
                 src="@/assets/images/companies/jotform.png"
-                class="w-20 h-20 rounded-md"
+                class="w-20 h-20 rounded-lg"
                 alt="avatar"
               />
             </div>
             <div class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center">
-              <h1 class="text-xl md:text-2xl font-semibold">
+              <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
               </h1>
-              <h2 class="font-medium text-sm md:text-base">JotForm - Intern</h2>
+              <h2 class="font-medium text-sm lg:text-base">JotForm - Intern</h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden md:flex flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex lg:flex flex-row justify-center items-center"
             >
               <h2>Jul 2022 - Aug 2022</h2>
             </div>
@@ -115,23 +115,23 @@
           aria-controls="collapseThree"
         >
           <div class="flex flex-row w-full">
-            <div class="w-2/6 md:w-1/6">
+            <div class="w-2/6 sm:w-1/6 lg:w-1/6">
               <img
                 src="@/assets/images/companies/tubitak.png"
-                class="w-20 h-20 rounded-md bg-white"
+                class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />
             </div>
             <div class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center">
-              <h1 class="text-xl md:text-2xl font-semibold">
+              <h1 class="text-xl lg:text-2xl font-semibold">
                 Software Developer
               </h1>
-              <h2 class="font-medium text-sm md:text-base">
+              <h2 class="font-medium text-sm lg:text-base">
                 TUBITAK - Scholarship
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden md:flex flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex lg:flex flex-row justify-center items-center"
             >
               <h2>Oct 2021 - Jul 2022</h2>
             </div>
@@ -172,23 +172,23 @@
           aria-controls="collapseFour"
         >
           <div class="flex flex-row w-full">
-            <div class="w-2/6 md:w-1/6">
+            <div class="w-2/6 sm:w-1/6 lg:w-1/6">
               <img
                 src="@/assets/images/companies/karegen.jpeg"
-                class="w-20 h-20 rounded-md bg-white"
+                class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />
             </div>
             <div class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center">
-              <h1 class="text-xl md:text-2xl font-semibold">
+              <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
               </h1>
-              <h2 class="font-medium text-sm md:text-base">
+              <h2 class="font-medium text-sm lg:text-base">
                 Kargen.com - Intern
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden md:flex flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex lg:flex flex-row justify-center items-center"
             >
               <h2>Jun 2021 - Aug 2021</h2>
             </div>
@@ -225,21 +225,21 @@
           aria-controls="collapseFive"
         >
           <div class="flex flex-row w-full">
-            <div class="w-2/6 md:w-1/6">
+            <div class="w-2/6 sm:w-1/6 lg:w-1/6">
               <img
                 src="@/assets/images/companies/mtm.png"
-                class="w-20 h-20 rounded-md bg-white"
+                class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />
             </div>
             <div class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center">
-              <h1 class="text-xl md:text-2xl font-semibold">Data Science</h1>
-              <h2 class="font-medium text-sm md:text-base">
+              <h1 class="text-xl lg:text-2xl font-semibold">Data Science</h1>
+              <h2 class="font-medium text-sm lg:text-base">
                 Meet the Music - Intern
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden md:flex flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex lg:flex flex-row justify-center items-center"
             >
               <h2>May 2021 - Aug 2021</h2>
             </div>

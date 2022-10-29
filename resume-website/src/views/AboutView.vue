@@ -1,6 +1,8 @@
 <template>
   <div>
-    <AboutHeader class="mt-2 md:mt-8 overflow-x-hidden overflow-y-auto" />
+    <AboutHeader
+      class="mt-2 md:mt-8 overflow-x-hidden sm:px-4 overflow-y-auto"
+    />
   </div>
 </template>
 

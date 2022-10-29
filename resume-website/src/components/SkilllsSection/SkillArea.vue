@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-md px-2 py-6 md:py-16 sm:px-0">
+  <div class="w-full max-w-lg px-2 py-6 lg:py-16 sm:px-0">
     <TabGroup>
       <TabList class="flex space-x-1 rounded-xl bg-brand_red2 p-1">
         <Tab
@@ -35,7 +35,7 @@
             <li
               v-for="post in posts"
               :key="post.id"
-              class="relative rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-800"
+              class="relative rounded-lg p-3 hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               <div class="flex flex-row items-center">
                 <img
@@ -53,7 +53,7 @@
               <a
                 href="#"
                 :class="[
-                  'absolute inset-0 rounded-md',
+                  'absolute inset-0 rounded-lg',
                   'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2',
                 ]"
               />
