@@ -5,12 +5,12 @@
     <div class="ml-20">
       <router-link to="/">
         <img
-          class="w-28 dark:hidden"
+          class="w-28 lg:w-20 dark:hidden"
           src="../assets/images/es.png"
           alt="logo"
         />
         <img
-          class="w-28 hidden dark:inline-block"
+          class="w-28 lg:w-20 hidden dark:inline-block"
           src="../assets/images/es_white.png"
           alt="logo "
         />
@@ -18,7 +18,7 @@
     </div>
     <div class="mr-20">
       <ul
-        class="flex flex-row gap-x-16 text-2xl text-gray-700 dark:text-gray-200 items-center"
+        class="flex flex-row lg:gap-x-8 lg:text-lg lg:text-center gap-x-16 text-2xl text-gray-700 dark:text-gray-200 items-center"
       >
         <li>
           <router-link to="/">Home</router-link>
@@ -71,13 +71,15 @@
 
   <div class="drawer drawer-end lg:hidden">
     <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+
     <div class="drawer-content">
       <!-- Page content here -->
       <!-- <label for="my-drawer-4" class="">Open drawer</label> -->
-      <div class="flex flex-row items-center justify-between mx-4 mt-2">
+      <div
+        class="fixed-top flex mb-80 flex-row items-center justify-between px-4 pt-2 bg-brand_background dark:bg-dark_background"
+      >
         <label for="my-drawer-4" class="btn btn-circle swap swap-rotate">
           <!-- this hidden checkbox controls the state -->
-          <input type="checkbox" />
 
           <!-- hamburger icon -->
           <svg
@@ -144,7 +146,7 @@
         </label>
       </div>
       <router-view
-        class="h-full sm:h-full md:calc-h-full-20"
+        class="h-full pt-32 sm:pt-32 md:pt-20 sm:h-full lg:calc-h-full-20"
         v-slot="{ Component }"
       >
         <transition
@@ -156,6 +158,7 @@
         </transition>
       </router-view>
     </div>
+
     <div class="drawer-side">
       <label for="my-drawer-4" class="drawer-overlay"></label>
       <ul
@@ -219,7 +222,7 @@
   </div>
 
   <router-view
-    class="h-full sm:h-full md:calc-h-full-20 hidden md:flex"
+    class="h-full sm:h-full md:calc-h-full-20 lg:h-screen hidden lg:flex"
     v-slot="{ Component }"
   >
     <transition

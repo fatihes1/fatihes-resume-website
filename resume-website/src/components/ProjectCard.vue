@@ -1,5 +1,5 @@
 <template>
-  <a :href="project.url">
+  <a :href="project.url" target="_blank">
     <div
       class="hover:cursor-pointer overflow-hidden transition duration-300 transform rounded-2xl shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl"
     >
@@ -9,7 +9,7 @@
       >
         <div class="p-8 flex flex-col gap-y-10 justify-center items-center">
           <div class="flex flex-col">
-            <h1 class="text-white font-bold text-4xl text-center">
+            <h1 class="text-white font-bold lg:text-2xl text-4xl text-center">
               {{ project.title }}
             </h1>
             <div>
@@ -17,11 +17,11 @@
             </div>
           </div>
           <div
-            class="flex flex-row gap-x-2 justify-center items-center align-middle bg-yellow-100 px-6 py-3 rounded-xl"
+            class="flex flex-row lg:gap-x-1 gap-x-2 justify-center items-center align-middle bg-yellow-100 px-6 py-3 lg:py-3 rounded-xl"
           >
             <img
               v-for="icons in project.techs"
-              class="w-10 h-10 align-middle"
+              class="w-10 h-10 align-middle lg:w-6 lg:h-6"
               :src="`src/assets/images/programming/${icons}.svg`"
             />
             <!-- <img class="icons" src="@/assets/images/programming/socket.svg" />
@@ -34,10 +34,10 @@
       <div
         class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-80 opacity-0 hover:opacity-100"
       >
-        <p class="mb-1 text-lg font-extrabold text-gray-100">
+        <p class="mb-1 text-lg font-extrabold text-gray-100 lg:text-sm">
           {{ project.title }}
         </p>
-        <p class="mb-4 tracking-wide font-medium text-gray-400">
+        <p class="mb-4 tracking-wide font-medium text-gray-400 lg:text-xs">
           {{ project.description }}
         </p>
         <div class="flex flex-col items-center justify-center space-x-3">

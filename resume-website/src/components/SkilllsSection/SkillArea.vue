@@ -1,7 +1,9 @@
 <template>
-  <div class="w-full max-w-lg px-2 py-6 lg:py-16 sm:px-0">
+  <div class="w-full max-w-lg px-2 py-6 xl:py-16 sm:px-0">
     <TabGroup>
-      <TabList class="flex space-x-1 rounded-xl bg-brand_red2 p-1">
+      <TabList
+        class="flex space-x-1 rounded-xl bg-brand_red2 p-1 lg:w-10/12 lg:mx-auto"
+      >
         <Tab
           v-for="category in Object.keys(categories)"
           as="template"
@@ -10,7 +12,7 @@
         >
           <button
             :class="[
-              'w-full rounded-lg py-2.5 text-sm font-semibold leading-5',
+              'w-full  rounded-lg py-2.5 text-sm font-semibold leading-5',
               'ring-white ring-opacity-60 ring-offset-2 ring-offset-brand_red2 focus:outline-none focus:ring-2 font-semibold',
               selected
                 ? 'bg-white shadow text-brand_red2 dark:text-white dark:bg-gray-800'
@@ -27,8 +29,8 @@
           v-for="(posts, idx) in Object.values(categories)"
           :key="idx"
           :class="[
-            'rounded-xl bg-white dark:bg-dark_background p-3',
-            'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+            'rounded-xl bg-white dark:bg-dark_background p-3 lg:w-10/12 lg:mx-auto',
+            'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2 lg:w-10/12 lg:mx-auto',
           ]"
         >
           <ul>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto w-full h-screen">
+  <div class="container mx-auto w-full h-screen lg:h-full">
     <div class="flex flex-col h-full lg:calc-h-full-20">
       <div
         class="lg:flex flex-row justify-center items-center hidden sm:hidden"
@@ -10,7 +10,9 @@
         </span>
       </div>
       <div class="w-full h-4/5 flex flex-col lg:flex-row mt-6 lg:mt0">
-        <div class="lg:w-1/12 flex flex-row lg:flex-col justify-end mr-4">
+        <div
+          class="hidden lg:w-1/12 lg:flex flex-row lg:flex-col justify-end mr-4"
+        >
           <span
             class="w-10 h-10 border-2 border-brand_green rounded-full grid place-items-center relative mb-4 animate-spin-slow"
           >
@@ -23,7 +25,7 @@
           class="w-full lg:w-5/12 flex flex-col gap-y-4 lg:gap-y-12 items-center lg:items-start mr-24 mt-9 animate__animated animate__bounceInDown"
         >
           <h1
-            class="text-3xl lg:text-5xl font-bold text-gray-700 dark:text-gray-200"
+            class="text-3xl text-center lg:text-4xl xl:text-5xl font-bold text-gray-700 dark:text-gray-200"
           >
             Learn more about me!
           </h1>
@@ -31,7 +33,7 @@
             class="flex flex-row justify-center md:text-center md:mx-auto mx-auto ml-4 lg:ml-0"
           >
             <div
-              class="md:text-center text-base lg:text-xl flex flex-col gap-y-2 font-bold text-gray-700 dark:text-gray-300"
+              class="md:text-center text-base lg:text-lg xl:text-xl flex flex-col gap-y-2 font-bold text-gray-700 dark:text-gray-300"
             >
               <h2>Birth:</h2>
               <h2>City:</h2>
@@ -40,7 +42,7 @@
               <h2>Degree:</h2>
             </div>
             <div
-              class="text-base md:text-center lg:text-xl text-gray-500 ml-4 flex flex-col gap-y-2 dark:text-gray-300"
+              class="text-base md:text-center lg:text-lg xl:text-xl text-gray-500 ml-4 flex flex-col gap-y-2 dark:text-gray-300"
             >
               <h2>12 Feb 1999</h2>
               <h2>Bursa/ Turkey</h2>
@@ -50,7 +52,7 @@
             </div>
           </div>
           <h1
-            class="text-lg lg:text-2xl mx-2 lg:mx-0 font-medium text-gray-500 dark:text-gray-200"
+            class="text-lg lg:text-xl xl:text-2xl mx-2 lg:mx-0 font-medium text-gray-500 dark:text-gray-200"
           >
             Hi! Fatih from Turkey here. As a junior full stack web developer, I
             wish to pursue this field as a career. Time is the most valuable
@@ -79,7 +81,7 @@
           <a
             href="https://fatihes.medium.com/print-who-am-i-31a3a67eb262"
             target="_blank"
-            class="text-blue-600 font-medium text-lg lg:text-2xl hover:underline cursor-pointer"
+            class="text-blue-600 font-medium text-lg lg:text-xl xl:text-2xl hover:underline cursor-pointer"
           >
             For More Read My
 
@@ -91,7 +93,7 @@
           class="w-full lg:w-5/12 flex flex-col gap-y-3 lg:gap-y-6 items-center lg:items-start animate__animated animate__bounceInUp"
         >
           <h1
-            class="text-3xl lg:text-5xl font-bold text-gray-700 dark:text-gray-200 mt-8"
+            class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-700 dark:text-gray-200 mt-8"
           >
             Communities
           </h1>

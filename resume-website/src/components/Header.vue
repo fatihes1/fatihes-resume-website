@@ -13,19 +13,20 @@
             </span>
           </div>
           <div
-            class="font-bold text-5xl sm:text-center lg:text-8xl ml-5 lg:ml-20 mt-2 lg:mt-14"
+            class="font-bold text-5xl sm:text-center lg:text-start lg:text-6xl ml-5 lg:ml-20 mt-2 lg:mt-14"
           >
             <h1 class="dark:text-gray-200">
               Hi! I am
               <span
                 class="text-transparent bg-clip-text bg-gradient-to-r from-brand_green to-purple-600"
                 >Fatih</span
-              ><span class="text-brand_orange text-2xl lg:text-6xl block mt-4"
+              ><span
+                class="text-brand_orange lg:text-start lg:text-4xl text-2xl block mt-4"
                 >Software Developer</span
               >
             </h1>
           </div>
-          <div class="ml-5 lg:ml-20 mt-1 lg:mt-4 sm:text-center">
+          <div class="ml-5 lg:ml-20 mt-1 lg:mt-4 sm:text-center lg:text-start">
             <h2 class="text-gray-600 dark:text-gray-200 font-bold lg:text-2xl">
               from Bursa, Turkey
             </h2>
@@ -34,7 +35,7 @@
           <router-link
             v-wave
             to="About"
-            class="bg-gradient-to-b sm:mx-auto from-brand_red2/75 to-brand_red2 w-1/2 lg:w-1/4 px-5 lg:px-10 py-2 lg:py-4 text-center rounded-full ml-5 lg:ml-20 mt-4 lg:text-lg font-bold text-white animate-bounce-slow duration-300b"
+            class="lg:text-sm bg-gradient-to-b sm:mx-auto from-brand_red2/75 to-brand_red2 w-1/2 lg:w-1/2 px-5 lg:px-10 py-2 lg:py-4 text-center rounded-full ml-5 lg:ml-20 mt-4 font-bold text-white animate-bounce-slow duration-300b"
           >
             DISCOVER
           </router-link>
@@ -49,7 +50,9 @@
             </span>
           </div>
         </div>
-        <div class="flex lg:justify-items-start sm:w-4/5 sm:mx-auto lg:w-1/2">
+        <div
+          class="flex lg:justify-items-start sm:w-4/5 sm:mx-auto lg:w-1/2 lg:h-2/3 lg:my-auto"
+        >
           <img
             src="../assets/images/welcome.png"
             alt="welcome_header"

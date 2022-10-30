@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row">
       <div class="w-full lg:w-1/2 animate__animated animate__backInRight">
         <h1
-          class="text-center text-3xl lg:text-5xl mx-auto mt-5 lg:mt-10 font-bold text-gray-700 dark:text-gray-100"
+          class="text-center text-3xl xl:text-5xl mx-auto mt-5 :mt-10 font-bold text-gray-700 dark:text-gray-100"
         >
           Check Out My Skills
         </h1>
@@ -14,7 +14,7 @@
         class="w-full lg:w-1/2 flex flex-col animate__animated animate__backInLeft"
       >
         <h1
-          class="text-center text-3xl lg:text-5xl mx-auto mt- lg:mt-10 font-bold text-gray-700 dark:text-gray-100"
+          class="text-center text-3xl xl:text-5xl mx-auto mt-5 xl:mt-10 font-bold text-gray-700 dark:text-gray-100"
         >
           Experiences
         </h1>

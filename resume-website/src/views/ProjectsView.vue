@@ -1,10 +1,10 @@
 <template>
   <div
-    class="lg:calc-h-full-20 overflow-x-hidden overflow-y-auto lg:overflow-hidden container mx-auto sm:px-5"
+    class="xl:calc-h-full-20 lg:h-screen overflow-x-hidden overflow-y-auto lg:overflow-hidden container mx-auto sm:px-5 lg:mt-24"
   >
-    <div class="flex flex-col mt-5 lg:mt-0">
+    <div class="flex flex-col mt-5 xl:mt-0">
       <h1
-        class="text-center text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-green-700"
+        class="text-center text-3xl xl:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-green-700"
       >
         Check out some of my projects
       </h1>
