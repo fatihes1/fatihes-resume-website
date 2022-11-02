@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Behind the Scenes of Websites: Back-end",
-    "desc": "What is a backend developer in web development? What does it provide? How is it different from front-end development?",
+    "desc": "What is a backend developer in web development? What does it provide? ",
     "tags": ["Web", "Back-end", "API"],
     "image": "back-end-blog.jpg",
     "url": "https://fatihes.medium.com/web-sitelerinin-perde-arkas%C4%B1-back-end-abd54156923e"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Vue 3 Bootcamp Notes",
-    "desc": "An open source GitHub repository with all the sample code and notes for Vue 3 from scratch.",
+    "desc": "An open source GitHub repository with all the examples source code and my notes for Vue 3 from scratch. Bootcamp & Microsoft Learn Path.",
     "tags": ["Vue", "JavaScript", "Web"],
     "image": "vue-blog.png",
     "url": "https://github.com/fatihes1/Vue.js-bootcamp"

@@ -19,7 +19,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col lg:-ml-7 justify-center"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col lg:-ml-7 xl:ml-0 justify-center"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Software Developer
@@ -74,7 +74,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
@@ -127,7 +127,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Software Developer
@@ -186,7 +186,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
@@ -241,7 +241,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">Data Scientist</h1>
               <h2 class="font-medium text-sm lg:text-base">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <AboutHeader
-      class="mt-2 md:mt-8 overflow-x-hidden sm:px-4 overflow-y-auto"
+      class="mt-2 md:mt-8 overflow-x-hidden xl:overflow-y-auto sm:px-4 overflow-y-auto"
     />
   </div>
 </template>

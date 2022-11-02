@@ -5,12 +5,12 @@
     <div class="ml-20">
       <router-link to="/">
         <img
-          class="w-28 lg:w-20 dark:hidden"
+          class="w-28 lg:w-20 xl:w-28 dark:hidden"
           src="../assets/images/es.png"
           alt="logo"
         />
         <img
-          class="w-28 lg:w-20 hidden dark:inline-block"
+          class="w-28 lg:w-20 xl:w-28 hidden dark:inline-block"
           src="../assets/images/es_white.png"
           alt="logo "
         />
@@ -18,7 +18,7 @@
     </div>
     <div class="mr-20">
       <ul
-        class="flex flex-row lg:gap-x-8 lg:text-lg lg:text-center gap-x-16 text-2xl text-gray-700 dark:text-gray-200 items-center"
+        class="flex flex-row lg:gap-x-8 lg:text-lg xl:text-2xl lg:text-center gap-x-16 text-2xl text-gray-700 dark:text-gray-200 items-center"
       >
         <li>
           <router-link to="/">Home</router-link>

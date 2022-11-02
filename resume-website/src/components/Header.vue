@@ -13,7 +13,7 @@
             </span>
           </div>
           <div
-            class="font-bold text-5xl sm:text-center lg:text-start lg:text-6xl ml-5 lg:ml-20 mt-2 lg:mt-14"
+            class="font-bold text-5xl sm:text-center lg:text-start lg:text-6xl xl:text-7xl ml-5 lg:ml-20 mt-2 lg:mt-14"
           >
             <h1 class="dark:text-gray-200">
               Hi! I am

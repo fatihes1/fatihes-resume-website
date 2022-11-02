@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto w-full h-screen lg:h-full">
+  <div class="container mx-auto w-full h-screen lg:h-full xl:pb-10">
     <div class="flex flex-col h-full lg:calc-h-full-20">
       <div
         class="lg:flex flex-row justify-center items-center hidden sm:hidden"
@@ -30,10 +30,10 @@
             Learn more about me!
           </h1>
           <div
-            class="flex flex-row justify-center md:text-center md:mx-auto mx-auto ml-4 lg:ml-0"
+            class="flex flex-row justify-center md:text-center md:mx-auto mx-auto xl:mx-auto ml-4 lg:ml-0"
           >
             <div
-              class="md:text-center text-base lg:text-lg xl:text-xl flex flex-col gap-y-2 font-bold text-gray-700 dark:text-gray-300"
+              class="md:text-center text-base lg:text-lg xl:text-xl xl:text-center flex flex-col gap-y-2 font-bold text-gray-700 dark:text-gray-300"
             >
               <h2>Birth:</h2>
               <h2>City:</h2>
@@ -42,7 +42,7 @@
               <h2>Degree:</h2>
             </div>
             <div
-              class="text-base md:text-center lg:text-lg xl:text-xl text-gray-500 ml-4 flex flex-col gap-y-2 dark:text-gray-300"
+              class="text-base md:text-center lg:text-lg xl:text-xl text-gray-500 xl:text-center ml-4 flex flex-col gap-y-2 dark:text-gray-300"
             >
               <h2>12 Feb 1999</h2>
               <h2>Bursa/ Turkey</h2>
@@ -90,7 +90,7 @@
           </a>
         </div>
         <div
-          class="w-full lg:w-5/12 flex flex-col gap-y-3 lg:gap-y-6 items-center lg:items-start animate__animated animate__bounceInUp"
+          class="w-full lg:w-5/12 flex flex-col gap-y-3 lg:gap-y-6 xl:gap-y-2 items-center lg:items-start animate__animated animate__bounceInUp"
         >
           <h1
             class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-700 dark:text-gray-200 mt-8"

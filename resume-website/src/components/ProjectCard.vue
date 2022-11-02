@@ -9,7 +9,9 @@
       >
         <div class="p-8 flex flex-col gap-y-10 justify-center items-center">
           <div class="flex flex-col">
-            <h1 class="text-white font-bold lg:text-2xl text-4xl text-center">
+            <h1
+              class="text-white font-bold lg:text-2xl xl:text-3xl text-4xl text-center"
+            >
               {{ project.title }}
             </h1>
             <div>
@@ -21,7 +23,7 @@
           >
             <img
               v-for="icons in project.techs"
-              class="w-10 h-10 align-middle lg:w-6 lg:h-6"
+              class="w-10 h-10 align-middle lg:w-6 lg:h-6 xl:w-10 xl:h-10"
               :src="`src/assets/images/programming/${icons}.svg`"
             />
             <!-- <img class="icons" src="@/assets/images/programming/socket.svg" />
@@ -34,10 +36,14 @@
       <div
         class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-80 opacity-0 hover:opacity-100"
       >
-        <p class="mb-1 text-lg font-extrabold text-gray-100 lg:text-sm">
+        <p
+          class="mb-1 text-lg font-extrabold text-gray-100 lg:text-sm xl:text-2xl"
+        >
           {{ project.title }}
         </p>
-        <p class="mb-4 tracking-wide font-medium text-gray-400 lg:text-xs">
+        <p
+          class="mb-4 tracking-wide font-medium text-gray-400 lg:text-xs xl:text-base"
+        >
           {{ project.description }}
         </p>
         <div class="flex flex-col items-center justify-center space-x-3">

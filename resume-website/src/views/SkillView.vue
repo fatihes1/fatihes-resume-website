@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:calc-h-full-20 xl:overflow-hidden md:overflow-y-auto md:mt-4 lg:pt-20 sm:px-8"
+    class="lg:calc-h-full-20 xl:h-full xl:overflow-hidden xl:overflow-y-auto md:overflow-y-auto md:mt-4 lg:pt-20 sm:px-8 xl:mb-28"
   >
     <div class="container mx-auto">
       <CoverSection />
