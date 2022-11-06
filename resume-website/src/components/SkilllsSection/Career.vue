@@ -1,9 +1,11 @@
 <template>
-  <div class="accordion mx-2" id="accordionExample">
-    <div class="accordion-item bg-white border border-gray-200">
+  <div class="accordion mx-2" id="accordionExample ">
+    <div
+      class="accordion-item bg-white border border-gray-200 dark:bg-gray-600 dark:border-gray-800"
+    >
       <h2 class="accordion-header mb-0" id="headingOne">
         <button
-          class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+          class="accordion-button dark:bg-gray-600 relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white dark:text-gray-100 border-0 dark:border-gray-800 rounded-none transition focus:outline-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne"
@@ -21,17 +23,19 @@
             <div
               class="ml-3 text-gray-700 w-4/6 flex flex-col lg:-ml-7 xl:ml-0 justify-center"
             >
-              <h1 class="text-xl lg:text-2xl font-semibold">
+              <h1 class="text-xl lg:text-2xl font-semibold dark:text-gray-100">
                 Software Developer
               </h1>
-              <h2 class="text-sm lg:text-base font-medium">
+              <h2 class="text-sm lg:text-base font-medium dark:text-gray-100">
                 Nette Interactive - Long Term Intern
               </h2>
             </div>
             <div
-              class="text-gray-700 hidden sm:flex sm:w-1/6 xl:flex lg:hidden flex-row justify-center items-center"
+              class="text-gray-700 hidden sm:flex sm:w-1/6 xl:flex lg:hidden flex-col justify-center items-center dark:text-gray-100"
             >
-              <h2>Oct 2022 - Currently</h2>
+              <h2>Oct 2022</h2>
+              <h2>-</h2>
+              <h2>Currently</h2>
             </div>
           </div>
         </button>
@@ -42,7 +46,7 @@
         aria-labelledby="headingOne"
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body py-4 px-5">
+        <div class="accordion-body py-4 px-5 text-gray-800 dark:text-gray-100">
           <p>
             &bull; Created corporate web pages with panels using
             <strong>Laravel</strong>.
@@ -55,10 +59,12 @@
         </div>
       </div>
     </div>
-    <div class="accordion-item bg-white border border-gray-200">
+    <div
+      class="accordion-item bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-600"
+    >
       <h2 class="accordion-header mb-0" id="headingTwo">
         <button
-          class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+          class="accordion-button dark:bg-gray-600 dark:text-gray-100 collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseTwo"
@@ -74,7 +80,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0 dark:text-gray-100"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
@@ -82,9 +88,11 @@
               <h2 class="font-medium text-sm lg:text-base">JotForm - Intern</h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-row justify-center items-center dark:text-gray-100"
             >
-              <h2>Jul 2022 - Aug 2022</h2>
+              <h2>Jul 2022</h2>
+              <h2>-</h2>
+              <h2>Aug 2022</h2>
             </div>
           </div>
         </button>
@@ -95,7 +103,7 @@
         aria-labelledby="headingTwo"
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body py-4 px-5">
+        <div class="accordion-body py-4 px-5 dark:text-gray-100">
           <p>
             &bull; Created dashboard using <strong>PHP</strong> and
             <strong>React.js</strong> for load tests.
@@ -108,10 +116,12 @@
         </div>
       </div>
     </div>
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingThree">
+    <div
+      class="accordion-item bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-600"
+    >
+      <h2 class="accordion-header dark:bg-gray-600 mb-0" id="headingThree">
         <button
-          class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+          class="accordion-button collapsed relative dark:text-gray-100 dark:bg-gray-600 flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseThree"
@@ -127,7 +137,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0 dark:text-gray-100"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Software Developer
@@ -137,9 +147,11 @@
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-col justify-center items-center dark:text-gray-100"
             >
-              <h2>Oct 2021 - Jul 2022</h2>
+              <h2>Oct 2021</h2>
+              <h2>-</h2>
+              <h2>Jul 2022</h2>
             </div>
           </div>
         </button>
@@ -150,7 +162,7 @@
         aria-labelledby="headingThree"
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body py-4 px-5">
+        <div class="accordion-body py-4 px-5 dark:text-gray-100">
           <p>
             &bull; Worked as a scholarship developer in the
             <strong>open-source</strong> project supported by TUBITAK.
@@ -167,10 +179,12 @@
         </div>
       </div>
     </div>
-    <div class="accordion-item bg-white border border-gray-200">
+    <div
+      class="accordion-item bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-600"
+    >
       <h2 class="accordion-header mb-0" id="headingThree">
         <button
-          class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+          class="accordion-button dark:text-gray-100 dark:bg-gray-600 collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseFour"
@@ -186,7 +200,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0 dark:text-gray-100"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">
                 Full Stack Web Developer
@@ -196,9 +210,11 @@
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-col justify-center items-center dark:text-gray-100"
             >
-              <h2>Jun 2021 - Aug 2021</h2>
+              <h2>Jun 2021</h2>
+              <h2>-</h2>
+              <h2>Aug 2021</h2>
             </div>
           </div>
         </button>
@@ -209,7 +225,7 @@
         aria-labelledby="headingFour"
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body py-4 px-5">
+        <div class="accordion-body py-4 px-5 dark:text-gray-100">
           <p>
             &bull; Designed and coded web pages parts such as slider, footer,
             about section with <strong>JavaScript</strong>.
@@ -222,10 +238,12 @@
         </div>
       </div>
     </div>
-    <div class="accordion-item bg-white border border-gray-200">
+    <div
+      class="accordion-item bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-600"
+    >
       <h2 class="accordion-header mb-0" id="headingFive">
         <button
-          class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+          class="accordion-button dark:text-gray-100 collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 dark:bg-gray-600 rounded-none transition focus:outline-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseFive"
@@ -241,7 +259,7 @@
               />
             </div>
             <div
-              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0"
+              class="ml-3 text-gray-700 w-4/6 flex flex-col justify-center lg:-ml-7 xl:ml-0 dark:text-gray-100"
             >
               <h1 class="text-xl lg:text-2xl font-semibold">Data Scientist</h1>
               <h2 class="font-medium text-sm lg:text-base">
@@ -249,9 +267,11 @@
               </h2>
             </div>
             <div
-              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-row justify-center items-center"
+              class="text-gray-700 w-1/6 hidden sm:flex xl:flex lg:hidden flex-col justify-center items-center dark:text-gray-100"
             >
-              <h2>May 2021 - Aug 2021</h2>
+              <h2>May 2021</h2>
+              <h2>-</h2>
+              <h2>Aug 2021</h2>
             </div>
           </div>
         </button>
@@ -262,7 +282,7 @@
         aria-labelledby="headingFive"
         data-bs-parent="#accordionExample"
       >
-        <div class="accordion-body py-4 px-5">
+        <div class="accordion-body py-4 px-5 dark:text-gray-100">
           <p>
             &bull; Created a web dashboard system with
             <strong>Flask</strong> that visualize the instantly updated user

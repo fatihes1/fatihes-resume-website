@@ -46,7 +46,7 @@
                   alt="avatar"
                 />
                 <h3
-                  class="text-sm font-medium leading-5 ml-2 dark:text-gray-100"
+                  class="text-sm font-medium leading-5 ml-2 text-gray-800 dark:text-gray-100"
                 >
                   {{ post.title }}
                 </h3>

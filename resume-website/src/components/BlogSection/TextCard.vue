@@ -13,7 +13,7 @@
       {{ blog.desc }}
     </h1>
     <div
-      class="flex flex-row lg:flex-col xl:flex-row lg:gap-y-2 gap-x-2 justify-center text-sm font-semibold dark:text-gray-100"
+      class="flex flex-row lg:flex-col xl:flex-row lg:gap-y-2 gap-x-2 justify-center text-sm font-semibold text-gray-800 dark:text-gray-100"
     >
       <span
         class="border-2 lg:border border-gray-600 dark:border-gray-200 px-3 py-1 rounded-full lg:text-xs xl:text-base xl:border-2 xl:font-semibold"
@@ -33,7 +33,7 @@
       v-wave="{ duration: 0.9, color: 'black' }"
       v-bind:href="blog.url"
       target="_blank"
-      class="text-right hover:underline dark:text-gray-100 lg:text-center"
+      class="text-right hover:underline dark:text-gray-100 lg:text-center text-gray-800"
       >Read more...</a
     >
   </div>
