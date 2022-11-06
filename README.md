@@ -9,6 +9,7 @@
 
 </div>
 
+Canlı demo için [buraya tıklayınız!](https://fatihes.com/)
 
 [Click here](EN_README.md) for English README.
 
