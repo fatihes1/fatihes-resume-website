@@ -68,7 +68,7 @@ Sunucu tarafını çalıştırın : `npm run dev` veya `pnpm dev`
 Proje varsayılan olarak şu adreste çalışacaktır. : `http://localhost:5173/`
 
 
-## :bust_in_silhouette: Contact With Me
+## :bust_in_silhouette: Benimle İletişime Geçin
 <div align="center">
 
 [![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fatihes/)
