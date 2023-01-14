@@ -7,7 +7,7 @@
         >
           Check Out My Skills
         </h1>
-        <img src="@/assets/images/avatar1.png" class="w-80 h-80 mx-auto" />
+        <img src="/assets/images/avatar1.png" class="w-80 h-80 mx-auto" />
         <SkillArea class="mx-auto" />
       </div>
       <div
@@ -41,7 +41,7 @@ export default {
 };
 </script>
 <!-- <div class="flex flex-row justify-center items-center">
-          <img src="@/assets/images/avatar2.png" class="w-80 h-80" />
+          <img src="/assets/images/avatar2.png" class="w-80 h-80" />
         </div> -->
 <!-- 
         <SkillArea

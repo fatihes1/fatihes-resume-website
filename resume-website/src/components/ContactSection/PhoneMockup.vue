@@ -22,7 +22,7 @@
               >
                 <img
                   class="w-14 h-14"
-                  :src="`src/assets/images/social/phone.svg`"
+                  :src="`/assets/images/social/phone.svg`"
                 />
                 <h1 class="text-sm font-semibold text-gray-700">Phone</h1>
               </a>
@@ -33,7 +33,7 @@
               >
                 <img
                   class="w-14 h-14"
-                  :src="`src/assets/images/social/safari.svg`"
+                  :src="`/assets/images/social/safari.svg`"
                 />
                 <h1 class="text-sm font-semibold text-gray-700">Safari</h1>
               </a>
@@ -44,7 +44,7 @@
               >
                 <img
                   class="w-14 h-14"
-                  :src="`src/assets/images/social/mail.svg`"
+                  :src="`/assets/images/social/mail.svg`"
                 />
                 <h1 class="text-sm font-semibold text-gray-700">Mail</h1>
               </a>
@@ -55,7 +55,7 @@
               >
                 <img
                   class="w-14 h-14"
-                  :src="`src/assets/images/social/spotify.svg`"
+                  :src="`/assets/images/social/spotify.svg`"
                 />
                 <h1 class="text-sm font-semibold text-gray-700">Spotify</h1>
               </a>

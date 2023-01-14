@@ -17,12 +17,12 @@
           </h1>
           <div class="mx-auto lg:ml-0">
             <img
-              src="@/assets/images/hand3.png"
+              src="/assets/images/hand3.png"
               alt="hand"
               class="w-full animate__animated hidden lg:flex animate__shakeX animate__infinite infinite animate__slower 3s"
             />
             <img
-              src="@/assets/images/hand2.png"
+              src="/assets/images/hand2.png"
               alt="hand"
               class="w-full animate-bounce-slow mt-8 lg:hidden mx-auto"
             />

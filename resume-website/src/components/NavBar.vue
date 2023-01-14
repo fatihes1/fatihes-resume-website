@@ -6,12 +6,12 @@
       <router-link to="/">
         <img
           class="w-28 lg:w-20 xl:w-28 dark:hidden"
-          src="../assets/images/es.png"
+          src="/assets/images/es.png"
           alt="logo"
         />
         <img
           class="w-28 lg:w-20 xl:w-28 hidden dark:inline-block"
-          src="../assets/images/es_white.png"
+          src="/assets/images/es_white.png"
           alt="logo "
         />
       </router-link>
@@ -106,12 +106,12 @@
         <router-link to="/">
           <img
             class="w-24 dark:hidden"
-            src="../assets/images/es.png"
+            src="/assets/images/es.png"
             alt="logo"
           />
           <img
             class="w-24 hidden dark:inline-block"
-            src="../assets/images/es_white.png"
+            src="/assets/images/es_white.png"
             alt="logo "
           />
         </router-link>

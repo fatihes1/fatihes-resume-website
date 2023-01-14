@@ -15,7 +15,7 @@
           <div class="flex flex-row w-full">
             <div class="w-2/6 sm:w-1/6 lg:w-2/6 xl:w-1/6">
               <img
-                src="@/assets/images/companies/nette.jpeg"
+                src="/assets/images/companies/nette.jpeg"
                 class="w-20 h-20 rounded-lg"
                 alt="avatar"
               />
@@ -74,7 +74,7 @@
           <div class="flex flex-row w-full">
             <div class="w-2/6 sm:w-1/6 lg:w-2/6 xl:w-1/6">
               <img
-                src="@/assets/images/companies/jotform.png"
+                src="/assets/images/companies/jotform.png"
                 class="w-20 h-20 rounded-lg"
                 alt="avatar"
               />
@@ -131,7 +131,7 @@
           <div class="flex flex-row w-full">
             <div class="w-2/6 sm:w-1/6 lg:w-2/6 xl:w-1/6">
               <img
-                src="@/assets/images/companies/tubitak.png"
+                src="/assets/images/companies/tubitak.png"
                 class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />
@@ -194,7 +194,7 @@
           <div class="flex flex-row w-full">
             <div class="w-2/6 sm:w-1/6 lg:w-2/6 xl:w-1/6">
               <img
-                src="@/assets/images/companies/karegen.jpeg"
+                src="/assets/images/companies/karegen.jpeg"
                 class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />
@@ -253,7 +253,7 @@
           <div class="flex flex-row w-full">
             <div class="w-2/6 sm:w-1/6 lg:w-2/6 xl:w-1/6">
               <img
-                src="@/assets/images/companies/mtm.png"
+                src="/assets/images/companies/mtm.png"
                 class="w-20 h-20 rounded-lg bg-white"
                 alt="avatar"
               />

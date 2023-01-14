@@ -6,7 +6,7 @@
   >
     <img
       class="w-12 h-12"
-      :src="`src/assets/images/social/${icon.image}.svg`"
+      :src="`/assets/images/social/${icon.image}.svg`"
     />
     <h1 class="text-sm font-semibold text-gray-700">{{ icon.name }}</h1>
   </a>

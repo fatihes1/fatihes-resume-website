@@ -7,7 +7,7 @@
   >
     <div class="w-3/12 items-center justify-center h-full flex">
       <img
-        :src="`src/assets/images/${community.image}`"
+        :src="`/assets/images/${community.image}`"
         alt=""
         class="w-full h-full rounded-lg grid place-items-center relative object-scale-down"
       />
