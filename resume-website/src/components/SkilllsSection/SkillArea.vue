@@ -41,7 +41,7 @@
             >
               <div class="flex flex-row items-center">
                 <img
-                  :src="`src/assets/images/programming/${post.image}.svg`"
+                  :src="`/assets/images/programming/${post.image}.svg`"
                   class="w-10 h-10 p-1"
                   alt="avatar"
                 />

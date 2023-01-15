@@ -15,7 +15,7 @@
               {{ project.title }}
             </h1>
             <div>
-              <!-- <img src="@/assets/images/programming/computer.webp" class="h-28" /> -->
+              <!-- <img src="/assets/images/programming/computer.webp" class="h-28" /> -->
             </div>
           </div>
           <div
@@ -24,12 +24,12 @@
             <img
               v-for="icons in project.techs"
               class="w-10 h-10 align-middle lg:w-6 lg:h-6 xl:w-10 xl:h-10"
-              :src="`src/assets/images/programming/${icons}.svg`"
+              :src="`/assets/images/programming/${icons}.svg`"
             />
-            <!-- <img class="icons" src="@/assets/images/programming/socket.svg" />
-            <img class="icons" src="@/assets/images/programming/vue.svg" />
-            <img class="icons" src="@/assets/images/programming/node-js.svg" />
-            <img class="icons" src="@/assets/images/programming/node-js.svg" /> -->
+            <!-- <img class="icons" src="/assets/images/programming/socket.svg" />
+            <img class="icons" src="/assets/images/programming/vue.svg" />
+            <img class="icons" src="/assets/images/programming/node-js.svg" />
+            <img class="icons" src="/assets/images/programming/node-js.svg" /> -->
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
           >
             <img
               class="w-10 h-10"
-              src="@/assets/images/programming/github.svg"
+              src="/assets/images/programming/github.svg"
             />
           </a>
         </div>

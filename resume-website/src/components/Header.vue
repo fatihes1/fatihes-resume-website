@@ -54,7 +54,7 @@
           class="flex lg:justify-items-start sm:w-4/5 sm:mx-auto lg:w-1/2 lg:h-2/3 lg:my-auto"
         >
           <img
-            src="../assets/images/welcome.png"
+            src="/assets/images/welcome.png"
             alt="welcome_header"
             class="animate__animated animate__bounceInDown"
           />
